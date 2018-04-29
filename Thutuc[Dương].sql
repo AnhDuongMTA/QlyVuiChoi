@@ -89,7 +89,7 @@ BEGIN
 END
  --thêm khách hàng
  GO
- ALTER PROC SP_ThemKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT, @GioiTinh NVARCHAR(10),@SDT INT  )
+CREATE PROC SP_ThemKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT, @GioiTinh NVARCHAR(10),@SDT INT  )
  AS
  BEGIN
 	INSERT dbo.KhachHang
@@ -97,7 +97,7 @@ END
  END
  GO
  --Sửa khách hàng
- ALTER PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT, @GioiTinh NVARCHAR(10),@SDT INT ) 
+CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT, @GioiTinh NVARCHAR(10),@SDT INT ) 
  AS
  BEGIN
  	UPDATE dbo.KhachHang
@@ -129,7 +129,7 @@ END
  END
  GO 
  --thu tuc sua dich vu
- ALTER PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT, @MaKhu VARCHAR(10))
+ CREATE PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT, @MaKhu VARCHAR(10))
  AS
  BEGIN
 	UPDATE dbo.DichVu

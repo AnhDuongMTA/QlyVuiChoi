@@ -126,8 +126,6 @@ VALUES  (N'TC011', N'Máng trượt', N'KV008' )
 INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
 VALUES	(N'KH001', N'Lê Như Quỳnh',1980,0975141782,N'Nữ')
 INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
-VALUES	(N'KH002', N'Nguyễn Trọng Bằng',1981,012449469999,N'Nam')
-INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
 VALUES	(N'KH003', N'Phạm Thanh Vân',1982,0983355888,N'Nữ')
 INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
 VALUES	(N'KH004', N'Phan Anh Tuấn',1983,0983730318,N'Nam')
@@ -161,8 +159,7 @@ INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
 VALUES	(N'KH018', N'Nguyễn Anh Huy',1997,0904770053,N'Nam')
 INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
 VALUES	(N'KH019', N'Nguyễn Thị Thu Hương',1998,0974880788,N'Nữ')
-INSERT dbo.KhachHang(Ma_KH, Ten_KH,Nam_Sinh, SDT, Gioi_Tinh)
-VALUES	(N'KH020', N'Nguyễn Hồng Sơn',1999,09846033663,N'Nam')
+
 
 
 -------------------------------DICH VU--------------------

@@ -3,14 +3,14 @@ GO
 --Phiếu Mua--
 GO
 
-ALTER PROC XemPM
+CREATE PROC XemPM
 AS
 BEGIN
 	SELECT * FROM PhieuMua
 END
 
 GO
-ALTER PROC ThemPM(@maphieu VARCHAR(10),@ngaymua DATE,@makh VARCHAR(10))
+CREATE PROC ThemPM(@maphieu VARCHAR(10),@ngaymua DATE,@makh VARCHAR(10))
 AS
 BEGIN
 	INSERT PhieuMua(Ma_Phieu,Ngay_Mua,Ma_KH)
@@ -18,7 +18,7 @@ BEGIN
 END
 
 GO
-ALTER PROC SuaPM(@maphieu VARCHAR(10),@ngaymua DATE,@makh VARCHAR(10))
+CREATE PROC SuaPM(@maphieu VARCHAR(10),@ngaymua DATE,@makh VARCHAR(10))
 AS
 BEGIN
 	UPDATE PhieuMua SET Ngay_Mua=@ngaymua,Ma_KH=@makh
@@ -26,7 +26,7 @@ BEGIN
 END
 
 GO
-ALTER PROC XoaPM(@maphieu VARCHAR(10))
+CREATE PROC XoaPM(@maphieu VARCHAR(10))
 AS
 BEGIN
 	DELETE PhieuMua
