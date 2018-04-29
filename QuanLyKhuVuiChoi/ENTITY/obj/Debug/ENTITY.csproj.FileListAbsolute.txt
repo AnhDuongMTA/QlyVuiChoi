@@ -1,0 +1,5 @@
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb

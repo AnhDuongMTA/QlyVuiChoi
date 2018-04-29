@@ -1,0 +1,83 @@
+﻿CREATE DATABASE QuanLyKhuVuiChoi
+go
+USE QuanLyKhuVuiChoi
+go
+CREATE TABLE KhuVuc
+(
+Ma_Khu VARCHAR(10) PRIMARY KEY,
+Ten_Khu NVARCHAR(50),
+Ma_TruongKhu VARCHAR(10),
+Chuc_Nang NVARCHAR(30),
+Vi_Tri NVARCHAR(30),
+Gia_NL INT,
+Gia_TE INT
+)
+GO
+CREATE TABLE KhachHang
+(
+Ma_KH VARCHAR(10) PRIMARY KEY,
+Ten_KH NVARCHAR(50),
+Nam_Sinh  INT,
+Gioi_Tinh NvarCHAR(4) CHECK(Gioi_Tinh IN (N'Nam',N'Nữ')),
+SDT VARCHAR(15)
+)
+ALTER TABLE dbo.KhachHang DROP COLUMN SDT
+ALTER TABLE dbo.KhachHang ADD SDT INT
+CREATE TABLE NhanVien 
+(
+Ma_NV VARCHAR(10) PRIMARY KEY,
+Ten_NV NVARCHAR(50),
+Ma_Khu VARCHAR(10) REFERENCES dbo.KhuVuc(Ma_Khu),
+Gioi_Tinh NVARCHAR(4) CHECK(Gioi_Tinh IN (N'Nam',N'Nữ')),
+Ngay_Sinh Date,
+DiaChi  nvarchar(50),
+Luong  INT
+)
+CREATE TABLE VeChoi
+(
+Ma_Ve VARCHAR(10) PRIMARY KEY,
+So_VeNL INT,
+So_VeTE INT,
+Ngay_Ban DATE,
+Tong_Tien INT,
+Ma_KH VARCHAR(10) REFERENCES dbo.KhachHang(Ma_KH),
+Ma_Khu VARCHAR(10) REFERENCES dbo.KhuVuc(Ma_Khu)
+)
+CREATE TABLE TroChoi
+(
+Ma_TroChoi VARCHAR(10) PRIMARY KEY,
+Ten_TroChoi NVARCHAR(50),
+Ma_Khu VARCHAR(10) REFERENCES dbo.KhuVuc(Ma_Khu)
+)
+CREATE TABLE ThietBi
+ (
+Ma_TB VARCHAR(10) PRIMARY KEY,
+Ten_TB NVARCHAR(50),
+Ngay_BD DATE,
+Ma_TroChoi VARCHAR(10) REFERENCES dbo.TroChoi (Ma_TroChoi)
+)
+CREATE TABLE DichVu
+ (
+Ma_DV VARCHAR(10) PRIMARY KEY,
+Ten_DV NVARCHAR(50),
+Gia_DV INT,
+Ma_Khu VARCHAR(10) REFERENCES dbo.KhuVuc(Ma_Khu)
+)
+CREATE TABLE PhieuMua
+(
+Ma_Phieu VARCHAR(10) PRIMARY KEY,
+Ngay_Mua DATE,
+Ma_KH VARCHAR(10) REFERENCES dbo.KhachHang(Ma_KH)
+)
+CREATE TABLE ChiTietPhieuMua 
+(
+Ma_Phieu VARCHAR(10),
+Ma_DV VARCHAR(10),
+SoLuong   INT,
+DonGia     INT,
+ThanhTien   INT,
+CONSTRAINT PC_SoPhieu_MaDV_PK PRIMARY KEY (Ma_Phieu,Ma_DV),
+CONSTRAINT PC_MADV_FK FOREIGN KEY(Ma_DV) REFERENCES DichVu(Ma_DV),
+CONSTRAINT PC_SoPhieu_FK FOREIGN KEY (Ma_Phieu) REFERENCES dbo.PhieuMua(Ma_Phieu) 
+)
+GO 

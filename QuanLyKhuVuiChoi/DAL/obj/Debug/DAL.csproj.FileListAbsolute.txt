@@ -1,0 +1,7 @@
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb

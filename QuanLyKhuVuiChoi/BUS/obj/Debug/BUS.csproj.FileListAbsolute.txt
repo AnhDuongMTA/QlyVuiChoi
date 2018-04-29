@@ -1,0 +1,9 @@
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
