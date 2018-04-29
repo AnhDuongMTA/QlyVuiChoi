@@ -14,16 +14,13 @@ namespace DAL
         private SqlConnection conn;
         public KetNoi()
         {
-            conn = new SqlConnection(@"Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=QuanLyKhuVuiChoi;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=DESKTOP-CE8KMD8\SQLEXPRESS;Initial Catalog=QuanLyKhuVuiChoi;Integrated Security=True");
         }
         public DataTable GetData(string strSql)
         {
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(strSql, conn);
-            if (ConnectionState.Closed == conn.State)
-            {
-                conn.Open();
-            }
+            conn.Open();
             da.Fill(dt);
             conn.Close();
             return dt;
@@ -68,10 +65,7 @@ namespace DAL
             SqlDataAdapter da = new SqlDataAdapter();
             da.SelectCommand = cmd;
             DataTable dt = new DataTable();
-            if (ConnectionState.Closed == conn.State)
-            {
-                conn.Open();
-            }
+            conn.Open();
             da.Fill(dt);
             conn.Close();
             return dt;
@@ -79,10 +73,7 @@ namespace DAL
         public int ExcuteSQL(string strSQL)
         {
             SqlCommand cmd = new SqlCommand(strSQL, conn);
-            if (ConnectionState.Closed == conn.State)
-            {
-                conn.Open();
-            }
+            conn.Open();
             int count = cmd.ExecuteNonQuery();
             conn.Close();
             return count;
@@ -97,10 +88,7 @@ namespace DAL
                 cmd.Parameters.AddRange(para);
             }
             cmd.Connection = conn;
-            if (ConnectionState.Closed==conn.State)
-            {
-                conn.Open();
-            }
+            conn.Open();
             int count = cmd.ExecuteNonQuery();
             conn.Close();
             return count;

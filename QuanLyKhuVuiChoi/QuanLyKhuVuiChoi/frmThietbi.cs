@@ -138,7 +138,7 @@ namespace QuanLyKhuVuiChoi
                 }
                 catch
                 {
-                    MessageBox.Show("lỗi không lưu đc");
+
                 }
             }
             else
@@ -153,7 +153,7 @@ namespace QuanLyKhuVuiChoi
                 }
                 catch
                 {
-                    MessageBox.Show("lỗi không lưu được");
+
                 }
             }
         }

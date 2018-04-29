@@ -12,6 +12,5 @@ namespace Entity
         public string TenKhachHang { get; set; }
         public int NamSinh { get; set; }
         public string GioiTinh { get; set; }
-        public int SDT { get; set; }
     }
 }

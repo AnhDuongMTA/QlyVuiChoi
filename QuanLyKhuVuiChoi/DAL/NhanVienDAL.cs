@@ -30,7 +30,6 @@ namespace DAL
                 new SqlParameter("Luong",nv.Luong),
                 new SqlParameter("MaKhu",nv.MaKhu),
                 new SqlParameter("NgaySinh",nv.NgaySinh),
-                new SqlParameter("DiaChi",nv.DiaChi)
             };
             return conn.ExcuteSQL("SP_ThemNhanVien", para);
         }
@@ -38,13 +37,12 @@ namespace DAL
         {
             SqlParameter[] para =
             {
-               new SqlParameter("MaNV",nv.MaNV),
+                new SqlParameter("MaNV",nv.MaNV),
                 new SqlParameter("TenNV",nv.TenNV),
                 new SqlParameter("GioiTinh",nv.GioiTinh),
                 new SqlParameter("Luong",nv.Luong),
                 new SqlParameter("MaKhu",nv.MaKhu),
                 new SqlParameter("NgaySinh",nv.NgaySinh),
-                new SqlParameter("DiaChi",nv.DiaChi)
             };
             return conn.ExcuteSQL("SP_SuaNhanVien", para);
         }
@@ -58,7 +56,7 @@ namespace DAL
         }
         public string TangMa()
         {
-            return conn.TangMa(" SELECT * FROM dbo.NhanVien", "NV");
+            return conn.TangMa("Select * From NhanVien", "NV");
         }
     }
 }

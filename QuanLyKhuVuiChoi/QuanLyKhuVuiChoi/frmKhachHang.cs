@@ -27,7 +27,6 @@ namespace QuanLyKhuVuiChoi
             txtTenKH.Enabled = e;
             cmbGioiTinh.Enabled = e;
             txtNamSinh.Enabled = e;
-            txtSDT.Enabled = e;
         }
         private void clearData()
         {
@@ -35,7 +34,6 @@ namespace QuanLyKhuVuiChoi
             txtTenKH.Text = "";
             cmbGioiTinh.Text = "";
             txtNamSinh.Text = "";
-            txtSDT.Text = "";
         }
         private void HienThi()
         {
@@ -119,8 +117,7 @@ namespace QuanLyKhuVuiChoi
             obj.MaKhachHang = txtMaKH.Text;
             obj.TenKhachHang = txtTenKH.Text;
             obj.GioiTinh = cmbGioiTinh.Text;
-            obj.NamSinh = int.Parse(txtNamSinh.Text);
-            obj.SDT = int.Parse(txtSDT.Text);
+            obj.NamSinh = Convert.ToInt32(txtNamSinh.Text);
             if (fluu == 0)
             {
                 int dt;
@@ -181,7 +178,7 @@ namespace QuanLyKhuVuiChoi
                 txtTenKH.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Ten_KH"].Value);
                 txtNamSinh.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Nam_Sinh"].Value);
                 cmbGioiTinh.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Gioi_Tinh"].Value);
-                txtSDT.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["SDT"].Value);
+                
             }
             else
             {
@@ -189,7 +186,6 @@ namespace QuanLyKhuVuiChoi
                 txtTenKH.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Ten_KH"].Value);
                 txtNamSinh.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Nam_Sinh"].Value);
                 cmbGioiTinh.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Gioi_Tinh"].Value);
-                txtSDT.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["SDT"].Value);
             }
         }
     }

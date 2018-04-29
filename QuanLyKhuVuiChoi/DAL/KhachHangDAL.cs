@@ -23,11 +23,10 @@ namespace DAL
         {
             SqlParameter[] para =
             {
-                new SqlParameter("MaKH",kh.MaKhachHang),
-                new SqlParameter("TenKH",kh.TenKhachHang),
+                new SqlParameter("MaKhachHang",kh.MaKhachHang),
+                new SqlParameter("TenKhachHang",kh.TenKhachHang),
                 new SqlParameter("NamSinh",kh.NamSinh),
-                new SqlParameter("GioiTinh",kh.GioiTinh),
-                new SqlParameter("SDT",kh.SDT)
+                new SqlParameter("GioiTinh",kh.GioiTinh)
             };
             return conn.ExcuteSQL("SP_ThemKhachHang", para);
         }
@@ -35,11 +34,10 @@ namespace DAL
         {
             SqlParameter[] para =
             {
-                new SqlParameter("MaKH",kh.MaKhachHang),
-                new SqlParameter("TenKH",kh.TenKhachHang),
+                new SqlParameter("MaKhachHang",kh.MaKhachHang),
+                new SqlParameter("TenKhachHang",kh.TenKhachHang),
                 new SqlParameter("NamSinh",kh.NamSinh),
-                new SqlParameter("GioiTinh",kh.GioiTinh),
-                new SqlParameter("SDT",kh.SDT)
+                new SqlParameter("GioiTinh",kh.GioiTinh)
             };
             return conn.ExcuteSQL("SP_SuaKhachHang", para);
         }
@@ -47,7 +45,7 @@ namespace DAL
         {
             SqlParameter[] para =
             {
-                new SqlParameter("MaKH",ID)
+                new SqlParameter("MaKhachHang",ID)
             };
             return conn.ExcuteSQL("SP_XoaKhachHang", para);
         }

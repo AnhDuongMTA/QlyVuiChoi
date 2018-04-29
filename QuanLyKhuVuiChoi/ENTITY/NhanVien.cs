@@ -14,6 +14,5 @@ namespace Entity
         public int Luong { get; set; }
         public string MaKhu { get; set; }
         public string NgaySinh { get; set; }
-        public string DiaChi { get; set; }
     }
 }

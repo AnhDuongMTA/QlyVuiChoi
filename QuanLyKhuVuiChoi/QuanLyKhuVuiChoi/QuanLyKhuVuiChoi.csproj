@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5429EA64-408E-4D35-B5AD-7321C30F9D09}</ProjectGuid>
+    <ProjectGuid>{56D18141-D077-489B-92A4-870A3FEB0CA7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuanLyKhuVuiChoi</RootNamespace>
@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -61,14 +65,26 @@
     <Compile Include="frmDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDichVu.designer.cs">
+    <Compile Include="frmDichVu.Designer.cs">
       <DependentUpon>frmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInVeChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInVeChoi.Designer.cs">
+      <DependentUpon>frmInVeChoi.cs</DependentUpon>
     </Compile>
     <Compile Include="frmKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmKhachHang.designer.cs">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhuVuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhuVuc.Designer.cs">
+      <DependentUpon>frmKhuVuc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -79,29 +95,76 @@
     <Compile Include="frmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNhanVien.designer.cs">
+    <Compile Include="frmNhanVien.Designer.cs">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuMuaDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuMuaDichVu.Designer.cs">
+      <DependentUpon>frmPhieuMuaDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThanhToan.designer.cs">
+      <DependentUpon>frmThanhToan.cs</DependentUpon>
     </Compile>
     <Compile Include="frmThietbi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmThietbi.designer.cs">
+    <Compile Include="frmThietbi.Designer.cs">
       <DependentUpon>frmThietbi.cs</DependentUpon>
     </Compile>
     <Compile Include="frmTroChoi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTroChoi.designer.cs">
+    <Compile Include="frmTroChoi.Designer.cs">
       <DependentUpon>frmTroChoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTTDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTTDV.Designer.cs">
+      <DependentUpon>frmTTDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTTNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTTNV.Designer.cs">
+      <DependentUpon>frmTTNV.cs</DependentUpon>
     </Compile>
     <Compile Include="frmTTTB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTTTB.designer.cs">
+    <Compile Include="frmTTTB.Designer.cs">
       <DependentUpon>frmTTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTTTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTTTC.Designer.cs">
+      <DependentUpon>frmTTTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVeChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVeChoi.Designer.cs">
+      <DependentUpon>frmVeChoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemTroChoiThuocKhuVuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemTroChoiThuocKhuVuc.designer.cs">
+      <DependentUpon>frmXemTroChoiThuocKhuVuc.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLKVC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKVC.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmDangKi.resx">
       <DependentUpon>frmDangKi.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,8 +174,14 @@
     <EmbeddedResource Include="frmDichVu.resx">
       <DependentUpon>frmDichVu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInVeChoi.resx">
+      <DependentUpon>frmInVeChoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhuVuc.resx">
+      <DependentUpon>frmKhuVuc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -120,15 +189,37 @@
     <EmbeddedResource Include="frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuMuaDichVu.resx">
+      <DependentUpon>frmPhieuMuaDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThanhToan.resx">
+      <DependentUpon>frmThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmThietbi.resx">
       <DependentUpon>frmThietbi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTroChoi.resx">
       <DependentUpon>frmTroChoi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTTDV.resx">
+      <DependentUpon>frmTTDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTTNV.resx">
+      <DependentUpon>frmTTNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTTTB.resx">
       <DependentUpon>frmTTTB.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTTTC.resx">
+      <DependentUpon>frmTTTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVeChoi.resx">
+      <DependentUpon>frmVeChoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemTroChoiThuocKhuVuc.resx">
+      <DependentUpon>frmXemTroChoiThuocKhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InVe.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -137,6 +228,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,13 +245,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BUS\BUS.csproj">
-      <Project>{aff0da67-2318-4617-8c92-478b25814df2}</Project>
+      <Project>{556482ec-490b-49aa-b9e9-63a4409e55d1}</Project>
       <Name>BUS</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ENTITY\ENTITY.csproj">
-      <Project>{381567f0-f875-4268-9bf1-dc5c397a25e9}</Project>
-      <Name>ENTITY</Name>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{50ffd36f-22cd-4689-8bca-988e04e85455}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLKVC.xsc">
+      <DependentUpon>QLKVC.xsd</DependentUpon>
+    </None>
+    <None Include="QLKVC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKVC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLKVC.xss">
+      <DependentUpon>QLKVC.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

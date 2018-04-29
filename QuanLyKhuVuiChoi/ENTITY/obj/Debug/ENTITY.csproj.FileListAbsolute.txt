@@ -1,5 +1,15 @@
-D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.dll
-D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.pdb
-D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
-D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
-D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb
+G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.dll
+G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.pdb
+G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.dll
+G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.pdb
+C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.dll
+C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.pdb
+C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.dll
+C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.pdb
+E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.dll
+E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\bin\Debug\Entity.pdb
+E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.dll
+E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\Entity\obj\Debug\Entity.pdb

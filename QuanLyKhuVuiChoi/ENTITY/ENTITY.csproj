@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{381567F0-F875-4268-9BF1-DC5C397A25E9}</ProjectGuid>
+    <ProjectGuid>{50FFD36F-22CD-4689-8BCA-988E04E85455}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ENTITY</RootNamespace>
-    <AssemblyName>ENTITY</AssemblyName>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,13 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietPhieuMuaEntity.cs" />
     <Compile Include="DichVu.cs" />
     <Compile Include="KhachHang.cs" />
+    <Compile Include="KhuVucEntity.cs" />
     <Compile Include="NguoiDung.cs" />
     <Compile Include="NhanVien.cs" />
+    <Compile Include="PhieuMuaEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThietBiEntity.cs" />
     <Compile Include="TroChoiEntity.cs" />
+    <Compile Include="VeChoiEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

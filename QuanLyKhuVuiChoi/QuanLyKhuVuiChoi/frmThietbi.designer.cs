@@ -429,6 +429,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmThietbi";
             this.Text = "frmThietbi";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmThietbi_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

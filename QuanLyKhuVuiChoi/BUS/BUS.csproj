@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFF0DA67-2318-4617-8C92-478B25814DF2}</ProjectGuid>
+    <ProjectGuid>{556482EC-490B-49AA-B9E9-63A4409E55D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BUS</RootNamespace>
@@ -40,22 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietPhieuMuaBUS.cs" />
     <Compile Include="DichVuBUS.cs" />
+    <Compile Include="HomeBUS.cs" />
     <Compile Include="KhachHangBUS.cs" />
+    <Compile Include="KhuVucBus.cs" />
     <Compile Include="NguoiDungBUS.cs" />
     <Compile Include="NhanVienBUS.cs" />
+    <Compile Include="PhieuMuaBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThietBiBus.cs" />
     <Compile Include="TrochoiBus.cs" />
+    <Compile Include="VeChoiBus.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{bbbac60e-cd8b-4162-bc11-39a6fa8e43cb}</Project>
+      <Project>{87836891-d49d-4016-92a1-dc635f5a81f9}</Project>
       <Name>DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ENTITY\ENTITY.csproj">
-      <Project>{381567f0-f875-4268-9bf1-dc5c397a25e9}</Project>
-      <Name>ENTITY</Name>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{50ffd36f-22cd-4689-8bca-988e04e85455}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
