@@ -1,27 +1,9 @@
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\Entity.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb

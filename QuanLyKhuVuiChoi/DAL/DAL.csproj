@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87836891-D49D-4016-92A1-DC635F5A81F9}</ProjectGuid>
+    <ProjectGuid>{BBBAC60E-CD8B-4162-BC11-39A6FA8E43CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -40,24 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChiTietPhieuMuaDAL.cs" />
     <Compile Include="DichVuDAL.cs" />
-    <Compile Include="HomeDAL.cs" />
     <Compile Include="KetNoi.cs" />
     <Compile Include="KhachHangDAL.cs" />
-    <Compile Include="KhuVucDAL.cs" />
     <Compile Include="NguoiDungDAL.cs" />
     <Compile Include="NhanVienDAL.cs" />
-    <Compile Include="PhieuMuaDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThietBiDAL.cs" />
     <Compile Include="TroChoiDAL.cs" />
-    <Compile Include="VeChoiDAL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entity\Entity.csproj">
-      <Project>{50ffd36f-22cd-4689-8bca-988e04e85455}</Project>
-      <Name>Entity</Name>
+    <ProjectReference Include="..\ENTITY\ENTITY.csproj">
+      <Project>{381567f0-f875-4268-9bf1-dc5c397a25e9}</Project>
+      <Name>ENTITY</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

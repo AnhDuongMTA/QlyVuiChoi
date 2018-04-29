@@ -1,106 +1,46 @@
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhuVuc.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTDV.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTNV.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTC.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhuVuc.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTDV.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTNV.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTC.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThanhToan.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoiThuocKhuVuc.resources
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Entity.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhuVuc.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThanhToan.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTDV.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTNV.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTC.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoiThuocKhuVuc.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInVeChoi.resources
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.SqlServer.Types.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.cache
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.compiled
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.dll
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.pdb
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\vc\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache

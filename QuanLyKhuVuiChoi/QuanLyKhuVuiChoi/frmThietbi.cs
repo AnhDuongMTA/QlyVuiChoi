@@ -106,7 +106,7 @@ namespace QuanLyKhuVuiChoi
             {
                 try
                 {
-                      Bus.DeleteData(txtMaTB.Text);
+                    Bus.DeleteData(txtMaTB.Text);
                     MessageBox.Show("Xóa thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     clearData();
                     DisEnl(false);
@@ -138,7 +138,7 @@ namespace QuanLyKhuVuiChoi
                 }
                 catch
                 {
-
+                    MessageBox.Show("lỗi không lưu đc");
                 }
             }
             else
@@ -153,7 +153,7 @@ namespace QuanLyKhuVuiChoi
                 }
                 catch
                 {
-
+                    MessageBox.Show("lỗi không lưu được");
                 }
             }
         }

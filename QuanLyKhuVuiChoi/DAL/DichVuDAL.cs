@@ -29,7 +29,7 @@ namespace DAL
                 new SqlParameter("GiaDV",dv.GiaDV),
                 new SqlParameter("MaKhu",dv.MaKhu)
             };
-            return conn.ExcuteSQL("ThemDV", para);
+            return conn.ExcuteSQL("SP_ThemDichVu", para);
         }
         public int SuaDichVu(DichVu dv)
         {
@@ -40,7 +40,7 @@ namespace DAL
                 new SqlParameter("GiaDV",dv.GiaDV),
                 new SqlParameter("MaKhu",dv.MaKhu)
             };
-            return conn.ExcuteSQL("SuaDV", para);
+            return conn.ExcuteSQL("SP_SuaDichVu", para);
         }
         public int XoaDichVu(string id)
         {
@@ -48,7 +48,7 @@ namespace DAL
             {
                 new SqlParameter("MaDV",id)
             };
-            return conn.ExcuteSQL("XoaDV", para);
+            return conn.ExcuteSQL("SP_XoaDichVu", para);
         }
         public string TangMa()
         {

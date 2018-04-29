@@ -1,21 +1,7 @@
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.pdb
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
-G:\GitHub\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.pdb
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
-C:\Users\ADMIN\Desktop\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\Entity.pdb
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
-E:\Kỳ 6\Thực tập CSDL\QLKVC\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
+D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb

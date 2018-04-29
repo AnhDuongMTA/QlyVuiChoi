@@ -16,9 +16,11 @@ namespace DAL
         {
             return conn.GetData("ThietBi_SelectAll", null);
         }
+
+
         public DataTable GetListTroChoi()
         {
-            return conn.GetData("TroChoi_Select", null);
+            return conn.GetData("TroChoi_SelectAll", null);
         }
         public int InsertData(ThietBiEntity Tb)
         {

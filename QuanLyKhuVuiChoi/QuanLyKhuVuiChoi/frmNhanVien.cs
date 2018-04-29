@@ -26,9 +26,10 @@ namespace QuanLyKhuVuiChoi
             txtMaNV.Enabled = e;
             txtHoTen.Enabled = e;
             cmbGioiTinh.Enabled = e;
-            txtMaKhu.Enabled = e;
+            cmbMaKhu.Enabled = e;
             txtLuong.Enabled = e;
             dateNgaySinh.Enabled = e;
+            txtDiaChi.Enabled = e;
 
         }
         private void clearData()
@@ -37,6 +38,7 @@ namespace QuanLyKhuVuiChoi
             txtHoTen.Text = "";
             cmbGioiTinh.Text = "";
             txtLuong.Text = "";
+            txtDiaChi.Text = "";
         }
         private void HienThi()
         {
@@ -114,25 +116,18 @@ namespace QuanLyKhuVuiChoi
             obj.MaNV = txtMaNV.Text;
             obj.TenNV = txtHoTen.Text;
             obj.Luong = Convert.ToInt32(txtLuong.Text);
-            obj.MaKhu = txtMaKhu.Text;
+            obj.MaKhu = cmbMaKhu.Text;
             obj.NgaySinh = dateNgaySinh.Text;
             obj.GioiTinh = cmbGioiTinh.Text;
-            
+            obj.DiaChi = txtDiaChi.Text;
+
             if (fluu == 0)
             {
-                
-                try
+                int dt;
+                dt = nvbus.ThemNhanVien(obj);
+                if (dt != 0)
                 {
-                    int dt;
-                    dt = nvbus.ThemNhanVien(obj);
-                    if (dt != 0)
-                    {
-                        MessageBox.Show("Thêm thành công!");
-                    }
-                }
-                catch
-                {
-                    MessageBox.Show("không được thêm nhân viên  dưới 18 tuổi!");
+                    MessageBox.Show("Thêm thành công!");
                 }
                 HienThi();
                 clearData();
@@ -156,6 +151,8 @@ namespace QuanLyKhuVuiChoi
         private void frmNhanVien_Load(object sender, EventArgs e)
         {
             cbTimKiem.DisplayMember = "";
+            cmbMaKhu.DataSource = nvbus.GetDataNhanVien();
+            cmbMaKhu.DisplayMember = "Ma_Khu";
             HienThi();
             DisEnl(false);
         }
@@ -172,9 +169,10 @@ namespace QuanLyKhuVuiChoi
             {
                 txtHoTen.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ten_NV"].Value);
                 txtLuong.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Luong"].Value);
-                txtMaKhu.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ma_Khu"].Value);
+                cmbMaKhu.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ma_Khu"].Value);
                 dateNgaySinh.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ngay_Sinh"].Value);
-                cmbGioiTinh.Text= Convert.ToString(dgvNhanVien.CurrentRow.Cells["Gioi_Tinh"].Value);
+                cmbGioiTinh.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Gioi_Tinh"].Value);
+                txtDiaChi.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["DiaChi"].Value);
 
             }
             else
@@ -182,17 +180,18 @@ namespace QuanLyKhuVuiChoi
                 txtMaNV.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ma_NV"].Value);
                 txtHoTen.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ten_NV"].Value);
                 txtLuong.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Luong"].Value);
-                txtMaKhu.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ma_Khu"].Value);
+                cmbMaKhu.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ma_Khu"].Value);
                 dateNgaySinh.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Ngay_Sinh"].Value);
                 cmbGioiTinh.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["Gioi_Tinh"].Value);
+                txtDiaChi.Text = Convert.ToString(dgvNhanVien.CurrentRow.Cells["DiaChi"].Value);
             }
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            if (cbTimKiem.Text=="Theo Mã Nhân Viên")
+            if (cbTimKiem.Text == "Theo Mã Nhân Viên")
             {
-                dgvNhanVien.DataSource= nvbus.TimKiem(" SELECT * FROM dbo.NhanVien where Ma_NV like '%"+txtTimKiem.Text+"%'");
+                dgvNhanVien.DataSource = nvbus.TimKiem(" SELECT * FROM dbo.NhanVien where Ma_NV like '%" + txtTimKiem.Text + "%'");
             }
             if (cbTimKiem.Text == "Theo Tên Nhân Viên")
             {
@@ -218,7 +217,7 @@ namespace QuanLyKhuVuiChoi
 
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
-           dgvNhanVien.DataSource = nvbus.GetDataNhanVien();
+            HienThi();
         }
     }
 }

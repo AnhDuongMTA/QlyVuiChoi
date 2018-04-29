@@ -45,7 +45,6 @@
             this.Ma_Khu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtGiaDV = new System.Windows.Forms.TextBox();
-            this.txtMaKhu = new System.Windows.Forms.TextBox();
             this.txtTenDV = new System.Windows.Forms.TextBox();
             this.txtMaDV = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -57,6 +56,7 @@
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.cbTimKiem = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.cmbMaKhu = new System.Windows.Forms.ComboBox();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDichVu)).BeginInit();
@@ -238,8 +238,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cmbMaKhu);
             this.groupBox1.Controls.Add(this.txtGiaDV);
-            this.groupBox1.Controls.Add(this.txtMaKhu);
             this.groupBox1.Controls.Add(this.txtTenDV);
             this.groupBox1.Controls.Add(this.txtMaDV);
             this.groupBox1.Controls.Add(this.label4);
@@ -261,14 +261,6 @@
             this.txtGiaDV.Name = "txtGiaDV";
             this.txtGiaDV.Size = new System.Drawing.Size(206, 26);
             this.txtGiaDV.TabIndex = 15;
-            // 
-            // txtMaKhu
-            // 
-            this.txtMaKhu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaKhu.Location = new System.Drawing.Point(532, 71);
-            this.txtMaKhu.Name = "txtMaKhu";
-            this.txtMaKhu.Size = new System.Drawing.Size(206, 26);
-            this.txtMaKhu.TabIndex = 15;
             // 
             // txtTenDV
             // 
@@ -383,6 +375,14 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Tìm Kiếm:";
             // 
+            // cmbMaKhu
+            // 
+            this.cmbMaKhu.FormattingEnabled = true;
+            this.cmbMaKhu.Location = new System.Drawing.Point(532, 75);
+            this.cmbMaKhu.Name = "cmbMaKhu";
+            this.cmbMaKhu.Size = new System.Drawing.Size(206, 25);
+            this.cmbMaKhu.TabIndex = 16;
+            // 
             // frmDichVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -424,7 +424,6 @@
         private System.Windows.Forms.DataGridView dgvDichVu;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtGiaDV;
-        private System.Windows.Forms.TextBox txtMaKhu;
         private System.Windows.Forms.TextBox txtTenDV;
         private System.Windows.Forms.TextBox txtMaDV;
         private System.Windows.Forms.Label label4;
@@ -441,5 +440,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Ten_DV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gia_DV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ma_Khu;
+        private System.Windows.Forms.ComboBox cmbMaKhu;
     }
 }

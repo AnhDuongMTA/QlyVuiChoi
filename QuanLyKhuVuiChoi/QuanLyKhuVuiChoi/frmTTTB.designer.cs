@@ -108,7 +108,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTTTB";
             this.Text = "frmTTTB";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmTTTB_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTTTB)).EndInit();
