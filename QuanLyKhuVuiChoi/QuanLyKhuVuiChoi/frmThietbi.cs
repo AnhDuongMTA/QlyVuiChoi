@@ -16,6 +16,7 @@ namespace QuanLyKhuVuiChoi
     {
         ThietBiBus Bus = new ThietBiBus();
         ThietBiEntity Tb = new ThietBiEntity();
+        TrochoiBus TC_Bus = new TrochoiBus();
         private int fluu = 1;
         public frmThietbi()
         {
@@ -43,7 +44,7 @@ namespace QuanLyKhuVuiChoi
         public void ShowTroChoi()
         {
             DataTable dt = new DataTable();
-            dt = Bus.GetListTroChoi();
+            dt = TC_Bus.GetDataTC();
             cmbMaTC.DataSource = dt;
             cmbMaTC.DisplayMember = "Ten_TroChoi";
             cmbMaTC.ValueMember = "Ma_TroChoi";

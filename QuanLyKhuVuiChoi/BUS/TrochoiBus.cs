@@ -33,9 +33,9 @@ namespace BUS
         {
             return Dal.TangMa();
         }
-        public DataTable GetDataTTTB(string ID)
+        public DataTable GetDataTC()
         {
-            return Dal.GetDataTTTB(ID);
+            return Dal.GetDataTC();
         }
         public DataTable GetListKhuVuc()
         {

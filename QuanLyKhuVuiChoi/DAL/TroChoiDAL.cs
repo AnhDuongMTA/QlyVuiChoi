@@ -54,10 +54,9 @@ namespace DAL
         {
             return conn.GetData("KhuVuc_SelectAll", null);
         }
-        public DataTable GetDataTTTB(String ID)
+        public DataTable GetDataTC()
         {
-            SqlParameter[] para = { new SqlParameter("Ma", ID) };
-            return conn.GetData("TroChoi_SelectTB", para);
+            return conn.GetData("TroChoi_Select", null);
         }
     }
 }

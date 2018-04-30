@@ -17,9 +17,9 @@ namespace BUS
         {
             return da.GetData();
         }
-        public DataTable GetListTroChoi()
+        public DataTable GetListThietBi()
         {
-            return da.GetListTroChoi();
+            return da.GetListThietBi();
         }
         public int InsertData(ThietBiEntity Tb)
         {

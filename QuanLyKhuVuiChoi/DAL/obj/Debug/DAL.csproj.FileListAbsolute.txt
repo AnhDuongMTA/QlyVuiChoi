@@ -5,3 +5,10 @@ D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
 D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
 D:\WINFORM(khu vui chơi)\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb

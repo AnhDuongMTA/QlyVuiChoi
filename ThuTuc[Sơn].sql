@@ -28,6 +28,12 @@ BEGIN
 	WHERE ThietBi.Ma_TroChoi =TroChoi.Ma_TroChoi
 END
 GO 
+CREATE PROC ThietBi_Select
+AS
+BEGIN
+	SELECT * FROM dbo.ThietBi
+END
+
 --------------------------------------------
 CREATE PROC Them_TroChoi (@MaTC VARCHAR(10),@TenTC NVARCHAR(30),@MaKhu VARCHAR(10))
 AS
@@ -51,12 +57,18 @@ BEGIN
 	DELETE dbo.TroChoi WHERE Ma_TroChoi = @Ma
 END
 GO
-CREATE PROC TroChoi_SelectAll
+ALTER PROC TroChoi_SelectAll
 AS
 BEGIN
-	SELECT * FROM dbo.TroChoi
+	SELECT Ma_TroChoi,Ten_TroChoi,Ten_Khu FROM dbo.TroChoi,dbo.KhuVuc
+	WHERE KhuVuc.Ma_Khu = TroChoi.Ma_Khu
 END
 GO
+CREATE PROC TroChoi_Select
+AS
+BEGIN 
+	SELECT * FROM dbo.TroChoi
+END
 ---------------------------------
 CREATE PROC KhuVuc_SelectAll
 AS
@@ -132,5 +144,47 @@ AS
 BEGIN
 	SELECT Ma_DV,Ten_DV,Ten_Khu,Gia_DV FROM dbo.DichVu,dbo.KhuVuc
 	 WHERE DichVu.Ma_Khu= KhuVuc.Ma_Khu AND dbo.DichVu.Ma_Khu = @MaKhu
+END
+GO
+--------------------------------------------------------
+CREATE PROC Them_CTDV (@MaDV varchar(10),@MaKhu varchar(10), @GioMo time, @GioDong time )
+AS
+BEGIN
+	INSERT INTO dbo.ChiTietDV
+	        ( MaDV, MaKhu, Gio_Mo, Gio_Dong )
+	VALUES  (@MaDV ,@MaKhu,@GioMo,@GioDong )
+END
+GO 
+CREATE PROC Xoa_CTDV (@MaDV varchar(10),@MaKhu varchar(10))
+AS
+BEGIN
+DELETE dbo.ChiTietDV WHERE MaDV =@MaDV AND MaKhu =@MaKhu
+END
+GO
+CREATE PROC CTDV_SelectID (@Ma VARCHAR(10))
+AS
+BEGIN
+	SELECT * FROM dbo.ChiTietDV WHERE MaKhu =@Ma
+END
+GO
+--------------------------------------------------------
+ALTER PROC Them_CTTB (@MaTB varchar(10),@MaTC varchar(10),@SoLuong INT )
+AS
+BEGIN
+	INSERT INTO dbo.ChiTietThietBi
+	        ( MaTC, MaTB, SoLuong )
+	VALUES  ( @MaTC,@MaTB,@SoLuong)
+END
+GO 
+CREATE PROC Xoa_CTTB (@MaTB varchar(10),@MaTC varchar(10))
+AS
+BEGIN
+DELETE dbo.ChiTietThietBi WHERE MaTC =@MaTC AND MaTB =@MaTB
+END
+GO
+CREATE PROC CTTB_SelectID (@Ma VARCHAR(10))
+AS
+BEGIN
+	SELECT MaTC, Ten_TroChoi,MaTB,SoLuong FROM dbo.ChiTietThietBi,dbo.TroChoi WHERE MaTC =@Ma AND MaTC = Ma_TroChoi
 END
 GO

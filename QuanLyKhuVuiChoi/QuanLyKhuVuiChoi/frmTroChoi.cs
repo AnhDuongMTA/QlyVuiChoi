@@ -16,8 +16,10 @@ namespace QuanLyKhuVuiChoi
     {
         TrochoiBus Bus = new TrochoiBus();
         TroChoiEntity Tc = new TroChoiEntity();
+        ThietBiBus TB_Bus = new ThietBiBus();
         public static string Ma;
         private int fluu = 1;
+        private int fluu1 = 1;
         public frmTroChoi()
         {
             InitializeComponent();
@@ -47,6 +49,14 @@ namespace QuanLyKhuVuiChoi
             cmbMaKhu.DisplayMember = "Ten_Khu";
             cmbMaKhu.ValueMember = "Ma_Khu";
         }
+        public void ShowThietBi()
+        {
+            DataTable dt = new DataTable();
+            dt = TB_Bus.GetListThietBi();
+            cmbTB.DataSource = dt;
+            cmbTB.DisplayMember = "Ten_TB";
+            cmbTB.ValueMember = "Ma_TB";
+        }
         private void HienThi()
         {
             dgvTroChoi.DataSource = Bus.GetData();
@@ -56,14 +66,14 @@ namespace QuanLyKhuVuiChoi
             HienThi();
             DisEnl(false);
             ShowKhuVuc();
+            ShowThietBi();
         }
         private void dgvTroChoi_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 if (fluu == 0)
-                {
-                    //  txtMaTB.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["MaTB"].Value);
+                {               
                     //txtMa.Text = Convert.ToString(dgvTroChoi.CurrentRow.Cells["MaTC"].Value);
                     txtTen.Text = Convert.ToString(dgvTroChoi.CurrentRow.Cells["TenTC"].Value);
                     cmbMaKhu.Text = Convert.ToString(dgvTroChoi.CurrentRow.Cells["TenKhu"].Value);
@@ -117,7 +127,7 @@ namespace QuanLyKhuVuiChoi
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            Tc.MaKhu = cmbMaKhu.Text;
+            Tc.MaKhu = cmbMaKhu.SelectedValue.ToString();
             Tc.MaTC = txtMa.Text;
             Tc.TenTC = txtTen.Text;
             if (fluu == 0)
@@ -129,7 +139,7 @@ namespace QuanLyKhuVuiChoi
                     HienThi();
                     clearData();
                     DisEnl(false);
-                    //fluu = 1;
+                    fluu = 1;
                 }
                 catch
                 {
@@ -151,6 +161,7 @@ namespace QuanLyKhuVuiChoi
 
                 }
             }
+            frmTroChoi_Load(sender, e);
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -180,15 +191,20 @@ namespace QuanLyKhuVuiChoi
                 HienThi();
         }
 
-        private void btnTTTB_Click(object sender, EventArgs e)
+        private void txtMa_TextChanged(object sender, EventArgs e)
         {
-            if (txtMa != null)
+            try
             {
-                Ma = txtMa.Text;
-                frmTTTB frmTb = new frmTTTB();
-                frmTb.Show();
+                DataTable dt = new System.Data.DataTable();
+                dt = CTHDbus.GetDataByID(txtMaHD.Text);
+                dgvCTHD.DataSource = dt;
             }
-
+            catch
+            {
+                dgvCTHD.DataSource = null;
+            }
         }
+        //Chi tiết Thiết BỊ
+
     }
 }
