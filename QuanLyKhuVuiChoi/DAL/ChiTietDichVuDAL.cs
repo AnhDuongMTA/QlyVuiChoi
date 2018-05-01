@@ -22,8 +22,7 @@ namespace DAL
             {
                 new SqlParameter("MaDV",DV.MaDV),
                 new SqlParameter("MaKhu",DV.MaKhu),
-                new SqlParameter("GioMo",DV.GioMo),
-                new SqlParameter("GioDong",DV.GioDong)
+                new SqlParameter("Gia",DV.Gia),
             };
             return conn.ExcuteSQL("Them_CTDV", para);
         }

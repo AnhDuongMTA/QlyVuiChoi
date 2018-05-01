@@ -22,3 +22,4 @@ C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\D
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache

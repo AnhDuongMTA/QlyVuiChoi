@@ -59,6 +59,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetDoanhThuCongTy.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSetVeChoi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetVeChoi.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmDangKi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +105,12 @@
     </Compile>
     <Compile Include="frmKhachHang.designer.cs">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhuVuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhuVuc.designer.cs">
+      <DependentUpon>frmKhuVuc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -143,11 +154,23 @@
     <Compile Include="frmTroChoi.designer.cs">
       <DependentUpon>frmTroChoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTTTB.cs">
+    <Compile Include="frmTTNV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTTTB.designer.cs">
-      <DependentUpon>frmTTTB.cs</DependentUpon>
+    <Compile Include="frmTTNV.designer.cs">
+      <DependentUpon>frmTTNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTTTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTTTC.designer.cs">
+      <DependentUpon>frmTTTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVeChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVeChoi.designer.cs">
+      <DependentUpon>frmVeChoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,6 +195,9 @@
     <EmbeddedResource Include="frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmKhuVuc.resx">
+      <DependentUpon>frmKhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,8 +219,14 @@
     <EmbeddedResource Include="frmTroChoi.resx">
       <DependentUpon>frmTroChoi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTTTB.resx">
-      <DependentUpon>frmTTTB.cs</DependentUpon>
+    <EmbeddedResource Include="frmTTNV.resx">
+      <DependentUpon>frmTTNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTTTC.resx">
+      <DependentUpon>frmTTTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVeChoi.resx">
+      <DependentUpon>frmVeChoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -229,6 +261,17 @@
     </None>
     <None Include="DataSetDoanhThuCongTy.xss">
       <DependentUpon>DataSetDoanhThuCongTy.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetVeChoi.xsc">
+      <DependentUpon>DataSetVeChoi.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetVeChoi.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetVeChoi.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetVeChoi.xss">
+      <DependentUpon>DataSetVeChoi.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

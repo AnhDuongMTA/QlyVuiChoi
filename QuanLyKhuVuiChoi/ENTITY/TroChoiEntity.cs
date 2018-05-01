@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace ENTITY
 {
     public class TroChoiEntity
     {
         public string MaTC { get; set; }
         public string TenTC { get; set; }
-        public string MaKhu
-        { get; set; }
+        public string MaKhu{ get; set; }
     }
 }

@@ -45,12 +45,14 @@
     <Compile Include="ChiTietThietBiEntity.cs" />
     <Compile Include="DichVu.cs" />
     <Compile Include="KhachHang.cs" />
+    <Compile Include="KhuVucEntity.cs" />
     <Compile Include="NguoiDung.cs" />
     <Compile Include="NhanVien.cs" />
     <Compile Include="PhieuMuaEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThietBiEntity.cs" />
     <Compile Include="TroChoiEntity.cs" />
+    <Compile Include="VeChoiEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

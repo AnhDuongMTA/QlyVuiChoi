@@ -10,7 +10,6 @@ namespace ENTITY
     {
         public string MaDV { get; set; }
         public string MaKhu { get; set; }
-        public int GioMo { get; set; }
-        public int GioDong { get; set; }
+        public int Gia { get; set; }
     }
 }

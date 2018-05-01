@@ -45,6 +45,7 @@
     <Compile Include="ChiTietThietBiBUS.cs" />
     <Compile Include="DichVuBUS.cs" />
     <Compile Include="KhachHangBUS.cs" />
+    <Compile Include="KhuVucBus.cs" />
     <Compile Include="NguoiDungBUS.cs" />
     <Compile Include="NhanVienBUS.cs" />
     <Compile Include="PhieuMuaBUS.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="ThietBiBus.cs" />
     <Compile Include="ThongKeBUS.cs" />
     <Compile Include="TrochoiBus.cs" />
+    <Compile Include="VeChoiBus.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

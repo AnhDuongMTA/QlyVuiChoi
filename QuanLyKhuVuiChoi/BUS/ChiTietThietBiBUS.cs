@@ -11,30 +11,18 @@ namespace BUS
 {
     public class ChiTietThietBiBUS
     {
-        KetNoi conn = new KetNoi();
-        public DataTable GetDataByID(String ID)
+        ChiTietThietBiDAL da = new ChiTietThietBiDAL();
+        public DataTable GetDataByID(string ID)
         {
-            SqlParameter[] para = { new SqlParameter("Ma", ID) };
-            return conn.GetData("CTTB_SelectID", para);
+            return da.GetDataByID(ID);
         }
-        public int InsertData(ChiTietThietBiEntity TB)
+        public int InsertData(ChiTietThietBiEntity CT)
         {
-            SqlParameter[] para =
-            {
-                new SqlParameter("MaTC",TB.MaTC),
-                new SqlParameter("MaTB",TB.MaTB),
-                new SqlParameter("GioMo",TB.SoLuong),
-            };
-            return conn.ExcuteSQL("Them_CTTB", para);
+            return da.InsertData(CT);
         }
         public int DeleteData(string MaTC, string MaTB)
         {
-            SqlParameter[] para =
-            {
-                new SqlParameter("MaTC",MaTC),
-                new SqlParameter("MaTB",MaTB)
-        };
-            return conn.ExcuteSQL("Xoa_CTTB", para);
+            return da.DeleteData(MaTC, MaTB);
         }
     }
 }

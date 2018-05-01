@@ -64,7 +64,6 @@ E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyK
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
-E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
@@ -189,3 +188,26 @@ C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVui
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.compiled
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInChiTietPhieuMuaDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoanhThuBanVe.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoanhThuDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInChiTietPhieuMuaDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhuVuc.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuDoanhThuBanVe.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuDoanhThuDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.cache
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.compiled
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTNV.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTC.resources

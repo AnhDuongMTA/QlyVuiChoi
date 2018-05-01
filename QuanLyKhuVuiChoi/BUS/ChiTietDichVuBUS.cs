@@ -17,13 +17,13 @@ namespace BUS
         {
             return da.GetDataByID(ID);
         }
-        public int InsertData(ChiTietDichVuEntity CT)
+        public int InsertData(ChiTietDichVuEntity DV)
         {
-            return da.InsertData(CT);
+            return da.InsertData(DV);
         }
-        public int DeleteData(string MaHD, string MaSP)
+        public int DeleteData(string MaDV, string MaKhu)
         {
-            return da.DeleteData(MaHD, MaSP);
+            return da.DeleteData(MaDV, MaKhu);
         }
     }
 }

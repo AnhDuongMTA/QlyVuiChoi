@@ -1,17 +1,17 @@
-USE QuanLyKhuVuiChoi
+﻿USE QuanLyKhuVuiChoi
 GO
-CREATE PROC Them_ThietBi (@MaTB VARCHAR(10),@TenTB NVARCHAR(30),@NgayBD DATE,@MaTC VARCHAR(10))
+ALTER PROC Them_ThietBi (@MaTB VARCHAR(10),@TenTB NVARCHAR(30),@NgayBD DATE)
 AS
 BEGIN
-	INSERT INTO dbo.ThietBi( Ma_TB, Ten_TB, Ngay_BD, Ma_TroChoi )
-	VALUES  (@MaTB,@TenTB,@NgayBD,@MaTC)
+	INSERT INTO dbo.ThietBi( Ma_TB, Ten_TB, Ngay_BD )
+	VALUES  (@MaTB,@TenTB,@NgayBD)
 END
 GO
-CREATE PROC Sua_ThietBi (@MaTB VARCHAR(10),@TenTB NVARCHAR(30),@NgayBD DATE,@MaTC VARCHAR(10))
+ALTER PROC Sua_ThietBi (@MaTB VARCHAR(10),@TenTB NVARCHAR(30),@NgayBD DATE)
 AS
 BEGIN
 	UPDATE dbo.ThietBi
-	SET Ten_TB = @TenTB,Ngay_BD = @NgayBD ,Ma_TroChoi = @MaTC
+	SET Ten_TB = @TenTB,Ngay_BD = @NgayBD 
 	WHERE Ma_TB = @MaTB
 END
 GO
@@ -20,21 +20,15 @@ AS
 BEGIN
 	DELETE dbo.ThietBi WHERE Ma_TB = @Ma
 END
-GO
-CREATE PROC ThietBi_SelectAll
+GO	
+ALTER PROC ThietBi_SelectAll
 AS
-BEGIN
-	SELECT Ma_TB,Ten_TB,Ngay_BD,Ten_TroChoi FROM dbo.ThietBi,dbo.TroChoi
-	WHERE ThietBi.Ma_TroChoi =TroChoi.Ma_TroChoi
+BEGIN 
+ SELECT * FROM dbo.ThietBi
 END
 GO 
-CREATE PROC ThietBi_Select
-AS
-BEGIN
-	SELECT * FROM dbo.ThietBi
-END
-
 --------------------------------------------
+GO 
 CREATE PROC Them_TroChoi (@MaTC VARCHAR(10),@TenTC NVARCHAR(30),@MaKhu VARCHAR(10))
 AS
 BEGIN
@@ -100,10 +94,10 @@ BEGIN
 	VALUES  (@MaVe,@SoVeNL,@SoVeTE,@NgayBan,@SoVeNL*@GiaVeNL+ @SoVeTE*@GiaVeTE,@MaKH,@MaKhu)
 END
 GO 
-CREATE PROC Sua_VeChoi (@MaVe varchar(10),@MaKH VARCHAR(10),@TongTien int ,@MaKhu VARCHAR(10),@SoVeNL INT,@SoVeTE INT,@NgayBan DATE) 
+ALTER PROC Sua_VeChoi (@MaVe varchar(10),@MaKH VARCHAR(10),@MaKhu VARCHAR(10),@SoVeNL INT,@SoVeTE INT,@NgayBan DATE,@GiaVeNL INT,@GiaVeTE INT) 
 AS
 BEGIN
-	UPDATE dbo.VeChoi SET So_VeNL = @SoVeNL,So_VeTE = @SoVeTE ,Ngay_Ban = @NgayBan,Tong_Tien = @TongTien ,Ma_KH = @MaKH,Ma_Khu = @MaKHu
+	UPDATE dbo.VeChoi SET So_VeNL = @SoVeNL,So_VeTE = @SoVeTE ,Ngay_Ban = @NgayBan,Tong_Tien = @SoVeNL*@GiaVeNL+ @SoVeTE*@GiaVeTE ,Ma_KH = @MaKH,Ma_Khu = @MaKHu,GiaVeNL =@GiaVeNL,GiaVeTE =@GiaVeTE
 	WHERE Ma_Ve = @MaVe
 END
 go
@@ -113,6 +107,7 @@ BEGIN
 	DELETE dbo.VeChoi 
 	WHERE Ma_Ve = @Ma
 END
+GO 
 CREATE PROC TroChoi_SelectAll
 AS 
 BEGIN
@@ -146,29 +141,31 @@ BEGIN
 	 WHERE DichVu.Ma_Khu= KhuVuc.Ma_Khu AND dbo.DichVu.Ma_Khu = @MaKhu
 END
 GO
---------------------------------------------------------
-CREATE PROC Them_CTDV (@MaDV varchar(10),@MaKhu varchar(10), @GioMo time, @GioDong time )
+-------------------------------------------------------- Chi Tiết Dịch Vụ--------------------------------------------------------
+ALTER PROC Them_CTDV (@MaDV varchar(10),@MaKhu varchar(10), @Gia INT)
 AS
 BEGIN
 	INSERT INTO dbo.ChiTietDV
-	        ( MaDV, MaKhu, Gio_Mo, Gio_Dong )
-	VALUES  (@MaDV ,@MaKhu,@GioMo,@GioDong )
+	        ( MaDV, MaKhu, Gia )
+	VALUES  (@MaDV ,@MaKhu,@Gia )
 END
 GO 
-CREATE PROC Xoa_CTDV (@MaDV varchar(10),@MaKhu varchar(10))
+ALTER PROC Xoa_CTDV (@MaDV varchar(10),@MaKhu varchar(10))
 AS
 BEGIN
 DELETE dbo.ChiTietDV WHERE MaDV =@MaDV AND MaKhu =@MaKhu
 END
 GO
-CREATE PROC CTDV_SelectID (@Ma VARCHAR(10))
+
+ALTER PROC CTDV_SelectID (@Ma VARCHAR(10))
 AS
 BEGIN
-	SELECT * FROM dbo.ChiTietDV WHERE MaKhu =@Ma
+	SELECT MaKhu,Ten_Khu,Ten_DV,Gia FROM dbo.ChiTietDV,dbo.KhuVuc,dbo.DichVu WHERE MaKhu =@Ma AND MaDV = Ma_DV AND MaKhu = Ma_Khu
 END
 GO
---------------------------------------------------------
-CREATE PROC Them_CTTB (@MaTB varchar(10),@MaTC varchar(10),@SoLuong INT )
+
+--------------------------------------------------------Chi Tiết Thiết Bị -----------------------------------------------
+ALTER PROC Them_CTTB (@MaTB varchar(10),@MaTC varchar(10),@SoLuong INT )
 AS
 BEGIN
 	INSERT INTO dbo.ChiTietThietBi
@@ -182,9 +179,9 @@ BEGIN
 DELETE dbo.ChiTietThietBi WHERE MaTC =@MaTC AND MaTB =@MaTB
 END
 GO
-CREATE PROC CTTB_SelectID (@Ma VARCHAR(10))
+ALTER PROC CTTB_SelectID (@Ma VARCHAR(10))
 AS
 BEGIN
-	SELECT MaTC, Ten_TroChoi,MaTB,SoLuong FROM dbo.ChiTietThietBi,dbo.TroChoi WHERE MaTC =@Ma AND MaTC = Ma_TroChoi
+	SELECT MaTC, Ten_TroChoi,Ten_TB,SoLuong FROM dbo.ChiTietThietBi,dbo.TroChoi,dbo.ThietBi WHERE MaTC =@Ma AND MaTC = Ma_TroChoi AND MaTB =Ma_TB 
 END
 GO

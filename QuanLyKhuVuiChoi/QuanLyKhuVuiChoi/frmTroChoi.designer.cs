@@ -56,6 +56,12 @@
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.dgvCTTB = new System.Windows.Forms.DataGridView();
+            this.STT1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaTroChoi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenTroChoi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.cmbTB = new System.Windows.Forms.ComboBox();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
@@ -66,20 +72,14 @@
             this.btnHuyCTTB = new System.Windows.Forms.Button();
             this.btnThemCTTB = new System.Windows.Forms.Button();
             this.btnXoaCTTB = new System.Windows.Forms.Button();
-            this.dgvCTTB = new System.Windows.Forms.DataGridView();
-            this.STT1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaTroChoi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenTroChoi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTroChoi)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTTB)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCTTB)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox3
@@ -388,12 +388,63 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dgvCTTB);
-            this.groupBox4.Location = new System.Drawing.Point(592, 255);
+            this.groupBox4.Location = new System.Drawing.Point(595, 255);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(441, 252);
             this.groupBox4.TabIndex = 43;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Danh Sách Trò Chơi: ";
+            this.groupBox4.Text = "Danh Sách Chi Tiết Thiết Bị  : ";
+            // 
+            // dgvCTTB
+            // 
+            this.dgvCTTB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCTTB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.STT1,
+            this.MaTroChoi,
+            this.TenTroChoi,
+            this.TenTB,
+            this.SoLuong});
+            this.dgvCTTB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvCTTB.Location = new System.Drawing.Point(3, 21);
+            this.dgvCTTB.Name = "dgvCTTB";
+            this.dgvCTTB.Size = new System.Drawing.Size(435, 228);
+            this.dgvCTTB.TabIndex = 0;
+            this.dgvCTTB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTTB_CellClick);
+            this.dgvCTTB.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvCTTB_RowPrePaint);
+            // 
+            // STT1
+            // 
+            this.STT1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.STT1.HeaderText = "STT";
+            this.STT1.Name = "STT1";
+            // 
+            // MaTroChoi
+            // 
+            this.MaTroChoi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaTroChoi.DataPropertyName = "MaTC";
+            this.MaTroChoi.HeaderText = "Mã Trò Chơi";
+            this.MaTroChoi.Name = "MaTroChoi";
+            // 
+            // TenTroChoi
+            // 
+            this.TenTroChoi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenTroChoi.DataPropertyName = "Ten_TroChoi";
+            this.TenTroChoi.HeaderText = "Tên Trò Chơi";
+            this.TenTroChoi.Name = "TenTroChoi";
+            // 
+            // TenTB
+            // 
+            this.TenTB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenTB.DataPropertyName = "Ten_TB";
+            this.TenTB.HeaderText = "Tên Thiết Bị";
+            this.TenTB.Name = "TenTB";
+            // 
+            // SoLuong
+            // 
+            this.SoLuong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SoLuong.DataPropertyName = "SoLuong";
+            this.SoLuong.HeaderText = "Số Lượng";
+            this.SoLuong.Name = "SoLuong";
             // 
             // groupBox5
             // 
@@ -472,6 +523,7 @@
             this.btnLuuCTTB.Text = "Lưu";
             this.btnLuuCTTB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLuuCTTB.UseVisualStyleBackColor = true;
+            this.btnLuuCTTB.Click += new System.EventHandler(this.btnLuuCTTB_Click);
             // 
             // btnHuyCTTB
             // 
@@ -487,6 +539,7 @@
             this.btnHuyCTTB.Text = "Hủy";
             this.btnHuyCTTB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHuyCTTB.UseVisualStyleBackColor = true;
+            this.btnHuyCTTB.Click += new System.EventHandler(this.btnHuyCTTB_Click);
             // 
             // btnThemCTTB
             // 
@@ -503,6 +556,7 @@
             this.btnThemCTTB.Text = "Thêm";
             this.btnThemCTTB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnThemCTTB.UseVisualStyleBackColor = true;
+            this.btnThemCTTB.Click += new System.EventHandler(this.btnThemCTTB_Click);
             // 
             // btnXoaCTTB
             // 
@@ -519,46 +573,7 @@
             this.btnXoaCTTB.Text = "Xóa";
             this.btnXoaCTTB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnXoaCTTB.UseVisualStyleBackColor = true;
-            // 
-            // dgvCTTB
-            // 
-            this.dgvCTTB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCTTB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.STT1,
-            this.MaTroChoi,
-            this.TenTroChoi,
-            this.TenTB,
-            this.SoLuong});
-            this.dgvCTTB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvCTTB.Location = new System.Drawing.Point(3, 21);
-            this.dgvCTTB.Name = "dgvCTTB";
-            this.dgvCTTB.Size = new System.Drawing.Size(435, 228);
-            this.dgvCTTB.TabIndex = 0;
-            // 
-            // STT1
-            // 
-            this.STT1.HeaderText = "STT";
-            this.STT1.Name = "STT1";
-            // 
-            // MaTroChoi
-            // 
-            this.MaTroChoi.HeaderText = "Mã Trò Chơi";
-            this.MaTroChoi.Name = "MaTroChoi";
-            // 
-            // TenTroChoi
-            // 
-            this.TenTroChoi.HeaderText = "Tên Trò Chơi";
-            this.TenTroChoi.Name = "TenTroChoi";
-            // 
-            // TenTB
-            // 
-            this.TenTB.HeaderText = "Tên Thiết Bị";
-            this.TenTB.Name = "TenTB";
-            // 
-            // SoLuong
-            // 
-            this.SoLuong.HeaderText = "Số Lượng";
-            this.SoLuong.Name = "SoLuong";
+            this.btnXoaCTTB.Click += new System.EventHandler(this.btnXoaCTTB_Click);
             // 
             // frmTroChoi
             // 
@@ -589,10 +604,10 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTroChoi)).EndInit();
             this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTTB)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCTTB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

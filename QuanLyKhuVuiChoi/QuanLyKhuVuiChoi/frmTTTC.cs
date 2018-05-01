@@ -10,16 +10,16 @@ using System.Windows.Forms;
 using BUS;
 namespace QuanLyKhuVuiChoi
 {
-    public partial class frmTTTB : Form
+    public partial class frmTTTC : Form
     {
-        TrochoiBus bus = new TrochoiBus();
-        public frmTTTB()
+        KhuVucBus bus = new KhuVucBus();
+        public frmTTTC()
         {
             InitializeComponent();
         }
-        private void frmTTTB_Load(object sender, EventArgs e)
+        private void frmTTTC_Load(object sender, EventArgs e)
         {
+            dgvTTTC.DataSource = bus.GetDataTTTC(frmKhuVuc.Ma);
         }
-
     }
 }

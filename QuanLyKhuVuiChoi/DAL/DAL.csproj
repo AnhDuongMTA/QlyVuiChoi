@@ -46,6 +46,7 @@
     <Compile Include="DichVuDAL.cs" />
     <Compile Include="KetNoi.cs" />
     <Compile Include="KhachHangDAL.cs" />
+    <Compile Include="KhuVucDAL.cs" />
     <Compile Include="NguoiDungDAL.cs" />
     <Compile Include="NhanVienDAL.cs" />
     <Compile Include="PhieuMuaDAL.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="ThietBiDAL.cs" />
     <Compile Include="ThongKeDAL.cs" />
     <Compile Include="TroChoiDAL.cs" />
+    <Compile Include="VeChoiDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ENTITY\ENTITY.csproj">
