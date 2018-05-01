@@ -49,6 +49,7 @@
     <Compile Include="NhanVienDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThietBiDAL.cs" />
+    <Compile Include="ThongKeDAL.cs" />
     <Compile Include="TroChoiDAL.cs" />
   </ItemGroup>
   <ItemGroup>

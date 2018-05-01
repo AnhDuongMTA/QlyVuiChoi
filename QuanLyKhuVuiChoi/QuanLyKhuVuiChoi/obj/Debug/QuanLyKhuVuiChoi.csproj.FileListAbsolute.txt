@@ -67,3 +67,44 @@ E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyK
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.exe
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.pdb
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDangKi.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmLogin.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDichVu.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhachHang.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmMain.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmNhanVien.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.pdb
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\BUS.pdb
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ENTITY.pdb
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoanhThuBanVe.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuDoanhThuBanVe.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.cache
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\RdlCompile.compiled
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoanhThuDichVu.resources
+C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuDoanhThuDichVu.resources

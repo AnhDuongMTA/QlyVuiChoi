@@ -193,16 +193,16 @@ namespace QuanLyKhuVuiChoi
 
         private void txtMa_TextChanged(object sender, EventArgs e)
         {
-            try
-            {
-                DataTable dt = new System.Data.DataTable();
-                dt = CTHDbus.GetDataByID(txtMaHD.Text);
-                dgvCTHD.DataSource = dt;
-            }
-            catch
-            {
-                dgvCTHD.DataSource = null;
-            }
+            //try
+            //{
+            //    DataTable dt = new System.Data.DataTable();
+            //    dt = CTHDbus.GetDataByID(txtMaHD.Text);
+            //    dgvCTHD.DataSource = dt;
+            //}
+            //catch
+            //{
+            //    dgvCTHD.DataSource = null;
+            //}
         }
         //Chi tiết Thiết BỊ
 

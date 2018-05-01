@@ -33,8 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSetDoanhThuCongTy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDoanhThuCongTy.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmDangKi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +72,18 @@
     <Compile Include="frmDichVu.designer.cs">
       <DependentUpon>frmDichVu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDoanhThuBanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoanhThuBanVe.Designer.cs">
+      <DependentUpon>frmDoanhThuBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoanhThuDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoanhThuDichVu.Designer.cs">
+      <DependentUpon>frmDoanhThuDichVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +101,18 @@
     </Compile>
     <Compile Include="frmNhanVien.designer.cs">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuDoanhThuBanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuDoanhThuBanVe.Designer.cs">
+      <DependentUpon>frmPhieuDoanhThuBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuDoanhThuDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuDoanhThuDichVu.Designer.cs">
+      <DependentUpon>frmPhieuDoanhThuDichVu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmThietbi.cs">
       <SubType>Form</SubType>
@@ -111,6 +143,12 @@
     <EmbeddedResource Include="frmDichVu.resx">
       <DependentUpon>frmDichVu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDoanhThuBanVe.resx">
+      <DependentUpon>frmDoanhThuBanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoanhThuDichVu.resx">
+      <DependentUpon>frmDoanhThuDichVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuDoanhThuBanVe.resx">
+      <DependentUpon>frmPhieuDoanhThuBanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuDoanhThuDichVu.resx">
+      <DependentUpon>frmPhieuDoanhThuDichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThietbi.resx">
       <DependentUpon>frmThietbi.cs</DependentUpon>
@@ -138,6 +182,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="rpDoanhThuBanVe.rdlc" />
+    <EmbeddedResource Include="rpDoanhThuDichVu.rdlc" />
+    <None Include="DataSetDoanhThuCongTy.xsc">
+      <DependentUpon>DataSetDoanhThuCongTy.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDoanhThuCongTy.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDoanhThuCongTy.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetDoanhThuCongTy.xss">
+      <DependentUpon>DataSetDoanhThuCongTy.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
