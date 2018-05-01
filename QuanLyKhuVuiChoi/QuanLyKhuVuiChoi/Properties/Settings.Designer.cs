@@ -33,5 +33,16 @@ namespace QuanLyKhuVuiChoi.Properties {
                 return ((string)(this["QuanLyKhuVuiChoiConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THANHVUONG\\SQLEXPRESS88;Initial Catalog=QuanLyKhuVuiChoi;Integrated S" +
+            "ecurity=True")]
+        public string QuanLyKhuVuiChoiConnectionString1 {
+            get {
+                return ((string)(this["QuanLyKhuVuiChoiConnectionString1"]));
+            }
+        }
     }
 }

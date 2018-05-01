@@ -17,3 +17,8 @@ D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.pdb
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb
