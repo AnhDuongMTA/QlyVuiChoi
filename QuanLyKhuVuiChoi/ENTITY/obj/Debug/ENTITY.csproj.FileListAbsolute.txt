@@ -12,3 +12,8 @@ C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\E
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\bin\Debug\ENTITY.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\ENTITY\obj\Debug\ENTITY.pdb

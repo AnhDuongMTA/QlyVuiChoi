@@ -19,3 +19,10 @@ C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTI
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb

@@ -25,3 +25,12 @@ C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTI
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
 C:\Users\ADMIN\Desktop\vuichoi304\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.pdb
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
