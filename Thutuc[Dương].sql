@@ -124,7 +124,7 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
  GO 
  ---------------------------------------------------------
   --Thu tuc xem dich vu
- ALTER PROC SP_XemDichVu
+ CREATE PROC SP_XemDichVu
  AS
  BEGIN
  	SELECT dv.Ma_DV,dv.Ten_DV,dv.Gia_DV,ctdv.Gio_Mo,ctdv.Gio_Dong,ctdv.MaKhu FROM dbo.DichVu AS dv JOIN dbo.ChiTietDV AS ctdv
@@ -133,7 +133,7 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
  GO
  ---------------------------------------------------------
  --thu tuc them dich vu
- ALTER PROC SP_ThemDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT, @GioMo INT , @GioDong INT, @MaKhu VARCHAR(10) )
+ CREATE PROC SP_ThemDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT, @GioMo INT , @GioDong INT, @MaKhu VARCHAR(10) )
  AS
  BEGIN
  	INSERT dbo.DichVu
@@ -145,7 +145,7 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
  GO 
  ---------------------------------------------------------
  --thu tuc sua dich vu
- ALTER PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT,@GioMo INT , @GioDong INT, @MaKhu VARCHAR(10))
+ CREATE PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT,@GioMo INT , @GioDong INT, @MaKhu VARCHAR(10))
  AS
  BEGIN
 	UPDATE dbo.DichVu
@@ -158,7 +158,7 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
  GO 
  ---------------------------------------------------------
  --thu tuc xoa dich vu
- ALTER PROC SP_XoaDichVu(@MaDV VARCHAR(10))
+ CREATE PROC SP_XoaDichVu(@MaDV VARCHAR(10))
  AS
  BEGIN
 	DELETE dbo.ChiTietPhieuMua
@@ -180,7 +180,7 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
 )
 GO 
 ---------------------------------------------------------
-ALTER PROC SP_DoanhThuBanVe(@NgayBan1 DATETIME,@NgayBan2 DATETIME)
+CREATE PROC SP_DoanhThuBanVe(@NgayBan1 DATETIME,@NgayBan2 DATETIME)
 AS 
 BEGIN
 DELETE TongTien
@@ -216,7 +216,7 @@ CREATE TABLE DoanhThuDichVu
 )
 GO 
 ---------------------------------------------------------
-ALTER PROC SP_DoanhThuDichVu(@NgayMua1 DATETIME,@NgayMua2 DATETIME)
+CREATE PROC SP_DoanhThuDichVu(@NgayMua1 DATETIME,@NgayMua2 DATETIME)
 AS 
 BEGIN
 DELETE DoanhThuDichVu

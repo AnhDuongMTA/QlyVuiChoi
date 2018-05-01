@@ -168,7 +168,7 @@ BEGIN
 END
 GO
 --------------------------------------------------------
-ALTER PROC Them_CTTB (@MaTB varchar(10),@MaTC varchar(10),@SoLuong INT )
+CREATE PROC Them_CTTB (@MaTB varchar(10),@MaTC varchar(10),@SoLuong INT )
 AS
 BEGIN
 	INSERT INTO dbo.ChiTietThietBi
