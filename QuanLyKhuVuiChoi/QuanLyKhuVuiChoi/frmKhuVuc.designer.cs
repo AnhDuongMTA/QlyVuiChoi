@@ -77,15 +77,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.dgvCTDV = new System.Windows.Forms.DataGridView();
+            this.MaKhu1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenKhu1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.btnLuuCTDV = new System.Windows.Forms.Button();
             this.btnHuyCTDV = new System.Windows.Forms.Button();
             this.btnThemCTDV = new System.Windows.Forms.Button();
             this.btnXoaCTDV = new System.Windows.Forms.Button();
-            this.MaKhu1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenKhu1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhuVuc)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -581,6 +581,7 @@
             this.cmbDV.Name = "cmbDV";
             this.cmbDV.Size = new System.Drawing.Size(143, 25);
             this.cmbDV.TabIndex = 2;
+            this.cmbDV.SelectedIndexChanged += new System.EventHandler(this.cmbDV_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -593,6 +594,7 @@
             // 
             // txtGia
             // 
+            this.txtGia.Enabled = false;
             this.txtGia.Location = new System.Drawing.Point(100, 74);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(143, 25);
@@ -631,6 +633,34 @@
             this.dgvCTDV.Size = new System.Drawing.Size(405, 202);
             this.dgvCTDV.TabIndex = 0;
             this.dgvCTDV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTDV_CellClick);
+            // 
+            // MaKhu1
+            // 
+            this.MaKhu1.DataPropertyName = "MaKhu";
+            this.MaKhu1.HeaderText = "Mã Khu";
+            this.MaKhu1.Name = "MaKhu1";
+            this.MaKhu1.Width = 70;
+            // 
+            // TenKhu1
+            // 
+            this.TenKhu1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenKhu1.DataPropertyName = "Ten_Khu";
+            this.TenKhu1.HeaderText = "Tên Khu";
+            this.TenKhu1.Name = "TenKhu1";
+            // 
+            // TenDV
+            // 
+            this.TenDV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenDV.DataPropertyName = "Ten_DV";
+            this.TenDV.HeaderText = "Tên Dịch Vụ";
+            this.TenDV.Name = "TenDV";
+            // 
+            // Gia
+            // 
+            this.Gia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Gia.DataPropertyName = "Gia";
+            this.Gia.HeaderText = "Giá";
+            this.Gia.Name = "Gia";
             // 
             // groupBox7
             // 
@@ -712,34 +742,6 @@
             this.btnXoaCTDV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnXoaCTDV.UseVisualStyleBackColor = true;
             this.btnXoaCTDV.Click += new System.EventHandler(this.btnXoaCTDV_Click);
-            // 
-            // MaKhu1
-            // 
-            this.MaKhu1.DataPropertyName = "MaKhu";
-            this.MaKhu1.HeaderText = "Mã Khu";
-            this.MaKhu1.Name = "MaKhu1";
-            this.MaKhu1.Width = 70;
-            // 
-            // TenKhu1
-            // 
-            this.TenKhu1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenKhu1.DataPropertyName = "Ten_Khu";
-            this.TenKhu1.HeaderText = "Tên Khu";
-            this.TenKhu1.Name = "TenKhu1";
-            // 
-            // TenDV
-            // 
-            this.TenDV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenDV.DataPropertyName = "Ten_DV";
-            this.TenDV.HeaderText = "Tên Dịch Vụ";
-            this.TenDV.Name = "TenDV";
-            // 
-            // Gia
-            // 
-            this.Gia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Gia.DataPropertyName = "Gia";
-            this.Gia.HeaderText = "Giá";
-            this.Gia.Name = "Gia";
             // 
             // frmKhuVuc
             // 

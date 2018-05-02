@@ -253,16 +253,16 @@ namespace QuanLyKhuVuiChoi
 
         private void btnInVe_Click(object sender, EventArgs e)
         {
-            //if(txtMaVe.Text != null)
-            //{
-            //    Ma = txtMaVe.Text;
-            //    frmInVeChoi frmIn = new frmInVeChoi();
-            //    frmIn.Show();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Yêu Cầu Nhập Đầy Đủ Thông Tin");
-            //}
+            if (txtMaVe.Text != null)
+            {
+                Ma = txtMaVe.Text;
+                frmInVeChoi frmIn = new frmInVeChoi();
+                frmIn.Show();
+            }
+            else
+            {
+                MessageBox.Show("Yêu Cầu Nhập Đầy Đủ Thông Tin");
+            }
         }
     }
 }

@@ -264,3 +264,7 @@ D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuV
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoi.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInVeChoi.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemDichVu.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoi.resources

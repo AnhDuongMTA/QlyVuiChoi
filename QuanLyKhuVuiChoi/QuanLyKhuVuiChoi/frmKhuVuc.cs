@@ -46,7 +46,6 @@ namespace QuanLyKhuVuiChoi
             btnThemCTDV.Enabled = !e;
             btnXoaCTDV.Enabled = !e;
             cmbDV.Enabled = e;
-            txtGia.Enabled = e;
         }
         private void clearData()
         {
@@ -61,7 +60,7 @@ namespace QuanLyKhuVuiChoi
         private void clearDataCTDV()
         {
             txtMaKhu.Text = "";
-            txtGia.Text = "";
+            txtGia.Text = "0";
             cmbDV.Text = "";
 
         }
@@ -342,6 +341,13 @@ namespace QuanLyKhuVuiChoi
             else
                 return;
 
+        }
+
+        private void cmbDV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataRowView d = (DataRowView)cmbDV.SelectedItem;
+
+            txtGia.Text = d.Row["Gia_DV"].ToString();
         }
     }
 }

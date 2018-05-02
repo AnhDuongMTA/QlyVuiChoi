@@ -100,6 +100,12 @@
     <Compile Include="frmInChiTietPhieuMuaDichVu.Designer.cs">
       <DependentUpon>frmInChiTietPhieuMuaDichVu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInVeChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInVeChoi.Designer.cs">
+      <DependentUpon>frmInVeChoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,6 +210,9 @@
     <EmbeddedResource Include="frmInChiTietPhieuMuaDichVu.resx">
       <DependentUpon>frmInChiTietPhieuMuaDichVu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInVeChoi.resx">
+      <DependentUpon>frmInVeChoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,6 +255,7 @@
     <EmbeddedResource Include="frmXemTroChoi.resx">
       <DependentUpon>frmXemTroChoi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InVerdlc.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -44,5 +44,16 @@ namespace QuanLyKhuVuiChoi.Properties {
                 return ((string)(this["QuanLyKhuVuiChoiConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-CE8KMD8\\SQLEXPRESS;Initial Catalog=QuanLyKhuVuiChoi;Integrate" +
+            "d Security=True")]
+        public string QuanLyKhuVuiChoiConnectionString2 {
+            get {
+                return ((string)(this["QuanLyKhuVuiChoiConnectionString2"]));
+            }
+        }
     }
 }
