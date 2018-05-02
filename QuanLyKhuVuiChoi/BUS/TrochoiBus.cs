@@ -17,6 +17,10 @@ namespace BUS
         {
             return Dal.GetData();
         }
+        public DataTable XemTC()
+        {
+            return Dal.XemTC();
+        }
         public int InsertData(TroChoiEntity Tc)
         {
             return Dal.InsertData(Tc);

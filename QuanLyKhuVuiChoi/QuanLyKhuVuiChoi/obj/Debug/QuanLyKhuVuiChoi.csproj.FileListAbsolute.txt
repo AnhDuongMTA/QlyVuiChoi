@@ -142,7 +142,6 @@ D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuV
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuDoanhThuDichVu.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThietbi.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTroChoi.resources
-D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTB.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.Properties.Resources.resources
 D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.csproj.GenerateResource.Cache
 C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\QuanLyKhuVuiChoi.exe.config
@@ -257,3 +256,11 @@ C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVui
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInChiTietPhieuMuaDichVu.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmKhuVuc.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmPhieuMuaDichVu.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTNV.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmTTTC.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoi.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemDichVu.resources

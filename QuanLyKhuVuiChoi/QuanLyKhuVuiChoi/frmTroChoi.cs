@@ -191,10 +191,11 @@ namespace QuanLyKhuVuiChoi
             DialogResult dr = MessageBox.Show("Bạn chắc chắn muốn hủy thao tác đang làm?", "Xác nhận hủy", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dr == DialogResult.Yes)
             {
-                //frmMain m = new frmMain();
-                //m.Show();
-                //this.Close();
-                Application.Exit();
+                frmMain m = new frmMain();
+                m.Show();
+                m.Close();
+                this.Close();
+                //Application.Exit();
             }
             else
                 HienThi();

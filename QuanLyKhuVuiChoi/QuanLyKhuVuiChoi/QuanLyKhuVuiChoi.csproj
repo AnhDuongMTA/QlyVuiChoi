@@ -172,6 +172,18 @@
     <Compile Include="frmVeChoi.designer.cs">
       <DependentUpon>frmVeChoi.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmXemDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemDichVu.Designer.cs">
+      <DependentUpon>frmXemDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemTroChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemTroChoi.Designer.cs">
+      <DependentUpon>frmXemTroChoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmDangKi.resx">
@@ -227,6 +239,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeChoi.resx">
       <DependentUpon>frmVeChoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemDichVu.resx">
+      <DependentUpon>frmXemDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemTroChoi.resx">
+      <DependentUpon>frmXemTroChoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

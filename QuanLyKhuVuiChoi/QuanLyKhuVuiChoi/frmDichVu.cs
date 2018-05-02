@@ -49,6 +49,7 @@ namespace QuanLyKhuVuiChoi
             {
                 frmMain m = new frmMain();
                 m.Show();
+                m.Close();
                 this.Close();
             }
             else

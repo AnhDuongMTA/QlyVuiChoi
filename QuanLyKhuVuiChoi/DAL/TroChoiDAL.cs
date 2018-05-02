@@ -16,6 +16,10 @@ namespace DAL
         {
             return conn.GetData("TroChoi_SelectAll", null);
         }
+        public DataTable XemTC()
+        {
+            return conn.GetData("XemTC", null);
+        }
         public int InsertData(TroChoiEntity Tc)
         {
             SqlParameter[] para =
