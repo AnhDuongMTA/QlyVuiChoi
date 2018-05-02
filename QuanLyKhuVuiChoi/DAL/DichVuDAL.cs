@@ -26,8 +26,7 @@ namespace DAL
             {
                 new SqlParameter("MaDV",dv.MaDV),
                 new SqlParameter("TenDV",dv.TenDV),
-                new SqlParameter("GiaDV",dv.GiaDV),
-                new SqlParameter("MaKhu",dv.MaKhu)
+                new SqlParameter("GiaDV",dv.GiaDV)
             };
             return conn.ExcuteSQL("SP_ThemDichVu", para);
         }
@@ -37,8 +36,7 @@ namespace DAL
             {
                 new SqlParameter("MaDV",dv.MaDV),
                 new SqlParameter("TenDV",dv.TenDV),
-                new SqlParameter("GiaDV",dv.GiaDV),
-                new SqlParameter("MaKhu",dv.MaKhu)
+                new SqlParameter("GiaDV",dv.GiaDV)
             };
             return conn.ExcuteSQL("SP_SuaDichVu", para);
         }

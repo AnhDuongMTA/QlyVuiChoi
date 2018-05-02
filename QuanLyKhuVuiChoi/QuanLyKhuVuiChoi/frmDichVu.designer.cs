@@ -38,17 +38,11 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvDichVu = new System.Windows.Forms.DataGridView();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ma_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ten_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gia_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ma_Khu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtGiaDV = new System.Windows.Forms.TextBox();
             this.txtTenDV = new System.Windows.Forms.TextBox();
             this.txtMaDV = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
@@ -56,7 +50,10 @@
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.cbTimKiem = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbMaKhu = new System.Windows.Forms.ComboBox();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ma_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ten_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia_DV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDichVu)).BeginInit();
@@ -192,8 +189,7 @@
             this.STT,
             this.Ma_DV,
             this.Ten_DV,
-            this.Gia_DV,
-            this.Ma_Khu});
+            this.Gia_DV});
             this.dgvDichVu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDichVu.Location = new System.Drawing.Point(3, 22);
             this.dgvDichVu.Name = "dgvDichVu";
@@ -202,48 +198,12 @@
             this.dgvDichVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDichVu_CellClick);
             this.dgvDichVu.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvDichVu_RowPrePaint);
             // 
-            // STT
-            // 
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
-            this.STT.Width = 70;
-            // 
-            // Ma_DV
-            // 
-            this.Ma_DV.DataPropertyName = "Ma_DV";
-            this.Ma_DV.HeaderText = "Mã dịch vụ";
-            this.Ma_DV.Name = "Ma_DV";
-            this.Ma_DV.Width = 120;
-            // 
-            // Ten_DV
-            // 
-            this.Ten_DV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Ten_DV.DataPropertyName = "Ten_DV";
-            this.Ten_DV.HeaderText = "Tên dịch vụ";
-            this.Ten_DV.Name = "Ten_DV";
-            // 
-            // Gia_DV
-            // 
-            this.Gia_DV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Gia_DV.DataPropertyName = "Gia_DV";
-            this.Gia_DV.HeaderText = "Giá dịch vụ";
-            this.Gia_DV.Name = "Gia_DV";
-            // 
-            // Ma_Khu
-            // 
-            this.Ma_Khu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Ma_Khu.DataPropertyName = "Ma_Khu";
-            this.Ma_Khu.HeaderText = "Mã khu";
-            this.Ma_Khu.Name = "Ma_Khu";
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.cmbMaKhu);
             this.groupBox1.Controls.Add(this.txtGiaDV);
             this.groupBox1.Controls.Add(this.txtTenDV);
             this.groupBox1.Controls.Add(this.txtMaDV);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -286,15 +246,6 @@
             this.label4.Size = new System.Drawing.Size(86, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "Gía dịch vụ:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(426, 75);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 17);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Mã khu:";
             // 
             // label3
             // 
@@ -375,13 +326,32 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Tìm Kiếm:";
             // 
-            // cmbMaKhu
+            // STT
             // 
-            this.cmbMaKhu.FormattingEnabled = true;
-            this.cmbMaKhu.Location = new System.Drawing.Point(532, 75);
-            this.cmbMaKhu.Name = "cmbMaKhu";
-            this.cmbMaKhu.Size = new System.Drawing.Size(206, 25);
-            this.cmbMaKhu.TabIndex = 16;
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            this.STT.Width = 70;
+            // 
+            // Ma_DV
+            // 
+            this.Ma_DV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Ma_DV.DataPropertyName = "Ma_DV";
+            this.Ma_DV.HeaderText = "Mã dịch vụ";
+            this.Ma_DV.Name = "Ma_DV";
+            // 
+            // Ten_DV
+            // 
+            this.Ten_DV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Ten_DV.DataPropertyName = "Ten_DV";
+            this.Ten_DV.HeaderText = "Tên dịch vụ";
+            this.Ten_DV.Name = "Ten_DV";
+            // 
+            // Gia_DV
+            // 
+            this.Gia_DV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Gia_DV.DataPropertyName = "Gia_DV";
+            this.Gia_DV.HeaderText = "Giá dịch vụ";
+            this.Gia_DV.Name = "Gia_DV";
             // 
             // frmDichVu
             // 
@@ -427,7 +397,6 @@
         private System.Windows.Forms.TextBox txtTenDV;
         private System.Windows.Forms.TextBox txtMaDV;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnTimKiem;
@@ -439,7 +408,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Ma_DV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ten_DV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gia_DV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ma_Khu;
-        private System.Windows.Forms.ComboBox cmbMaKhu;
     }
 }

@@ -123,52 +123,36 @@ CREATE PROC SP_SuaKhachHang(@MaKH VARCHAR(10), @TenKH NVARCHAR(50), @NamSinh INT
  END
  GO 
  ---------------------------------------------------------
-  --Thu tuc xem dich vu
- CREATE PROC SP_XemDichVu
+  ALTER PROC SP_XemDichVu
  AS
  BEGIN
- 	SELECT dv.Ma_DV,dv.Ten_DV,dv.Gia_DV,ctdv.Gio_Mo,ctdv.Gio_Dong,ctdv.MaKhu FROM dbo.DichVu AS dv JOIN dbo.ChiTietDV AS ctdv
-	ON  dv.Ma_DV=ctdv.MaDV
+ 	SELECT * FROM dbo.DichVu
  END
  GO
- ---------------------------------------------------------
  --thu tuc them dich vu
- CREATE PROC SP_ThemDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT, @GioMo INT , @GioDong INT, @MaKhu VARCHAR(10) )
+ CREATE PROC SP_ThemDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT)
  AS
  BEGIN
  	INSERT dbo.DichVu
- 	        ( Ma_DV, Ten_DV, Gia_DV )
- 	VALUES  ( @MaDV, @TenDV, @GiaDV)
-	INSERT ChiTietDV
-	VALUES (@MaDV,@MaKhu,@GioMo,@GioDong)
+ 	VALUES  ( @MaDV,@TenDV,@GiaDV)
  END
  GO 
- ---------------------------------------------------------
  --thu tuc sua dich vu
- CREATE PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT,@GioMo INT , @GioDong INT, @MaKhu VARCHAR(10))
+ ALTER  PROC SP_SuaDichVu(@MaDV VARCHAR(10), @TenDV NVARCHAR(50), @GiaDV INT)
  AS
  BEGIN
-	UPDATE dbo.DichVu
+ 	UPDATE dbo.DichVu 
 	SET Ten_DV=@TenDV,Gia_DV=@GiaDV
 	WHERE Ma_DV=@MaDV
-	UPDATE ChiTietDV
-	SET MaKhu=@MaKhu,Gio_Mo=@GioMo,Gio_Dong=@GioDong
-	WHERE MaDV=@MaDV
  END
  GO 
- ---------------------------------------------------------
  --thu tuc xoa dich vu
- CREATE PROC SP_XoaDichVu(@MaDV VARCHAR(10))
+ ALTER PROC SP_XoaDichVu(@MaDV VARCHAR(10))
  AS
  BEGIN
-	DELETE dbo.ChiTietPhieuMua
-	WHERE Ma_DV=@MaDV
  	DELETE dbo.DichVu
 	WHERE Ma_DV=@MaDV
-	DELETE ChiTietDV
-	WHERE MaDV=@MaDV
  END
- GO 
  ---------------------------------------------------------
  CREATE TABLE TongTien
 (

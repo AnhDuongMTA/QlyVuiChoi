@@ -16,7 +16,7 @@ namespace QuanLyKhuVuiChoi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmKhuVuc());
+            Application.Run(new frmDichVu());
         }
     }
 }

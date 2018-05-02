@@ -26,14 +26,12 @@ namespace QuanLyKhuVuiChoi
             txtMaDV.Enabled = e;
             txtTenDV.Enabled = e;
             txtGiaDV.Enabled = e;
-            cmbMaKhu.Enabled = e;
         }
         private void clearData()
         {
             txtMaDV.Text = "";
             txtTenDV.Text = "";
             txtGiaDV.Text = "";
-            cmbMaKhu.Text = "";
         }
         private void HienThi()
         {
@@ -110,27 +108,19 @@ namespace QuanLyKhuVuiChoi
             dv.MaDV = txtMaDV.Text;
             dv.TenDV = txtTenDV.Text;
             dv.GiaDV = Convert.ToInt32(txtGiaDV.Text);
-            dv.MaKhu = cmbMaKhu.Text;
 
             if (fluu == 0)
             {
-
-                try
+                int dt;
+                dt = dvbus.ThemDichVu(dv);
+                if (dt != 0)
                 {
-                    int dt;
-                    dt = dvbus.ThemDichVu(dv);
-                    if (dt != 0)
-                    {
-                        MessageBox.Show("Thêm thành công!");
-                    }
-                }
-                catch
-                {
-                    MessageBox.Show("không được thêm nhân viên  dưới 18 tuổi!");
+                    MessageBox.Show("Thêm thành công!");
                 }
                 HienThi();
                 clearData();
                 DisEnl(false);
+                fluu = 1;
             }
             else
             {
@@ -144,8 +134,6 @@ namespace QuanLyKhuVuiChoi
 
         private void frmDichVu_Load(object sender, EventArgs e)
         {
-            cmbMaKhu.DataSource = dvbus.XemDichVu();
-            cmbMaKhu.DisplayMember = "Ma_Khu";
             HienThi();
             DisEnl(false);
         }
@@ -161,15 +149,12 @@ namespace QuanLyKhuVuiChoi
             {
                 txtTenDV.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Ten_DV"].Value);
                 txtGiaDV.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Gia_DV"].Value);
-                cmbMaKhu.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Ma_Khu"].Value);
-                
             }
             else
             {
                 txtMaDV.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Ma_DV"].Value);
                 txtTenDV.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Ten_DV"].Value);
                 txtGiaDV.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Gia_DV"].Value);
-                cmbMaKhu.Text = Convert.ToString(dgvDichVu.CurrentRow.Cells["Ma_Khu"].Value);
             }
         }
 
