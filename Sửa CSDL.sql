@@ -22,3 +22,20 @@ ALTER TABLE dbo.ChiTietDV DROP COLUMN Gio_Mo
 ALTER TABLE dbo.ChiTietDV DROP COLUMN Gio_Dong
 
 ALTER TABLE dbo.ChiTietDV ADD  Gia INT
+
+ALTER TABLE dbo.NguoiDung ADD MaNV VARCHAR(10) REFERENCES dbo.NhanVien(Ma_NV)
+INSERT INTO dbo.NguoiDung
+        ( TaiKhoan, MatKhau, PhanQuyen ,MaNV)
+VALUES  ( N'NV001', -- TaiKhoan - nvarchar(50)
+          N'Admin', -- MatKhau - nvarchar(50)
+          'Admin',  -- PhanQuyen - varchar(20)
+		  'NV001'
+          )
+--thu tuc them nguoi dung-----------------------------------------------
+ ALTER PROC SP_ThemNguoiDung(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50), @PhanQuyen NVARCHAR(50),@MaNV VARCHAR(10))
+ AS
+ BEGIN
+ INSERT dbo.NguoiDung
+ VALUES  (@TaiKhoan,@MatKhau,@PhanQuyen,@MaNV)
+ END
+ GO

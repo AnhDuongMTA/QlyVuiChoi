@@ -15,14 +15,18 @@ namespace DAL
         {
             SqlParameter[] para = { new SqlParameter("TaiKhoan", nd.TaiKhoan),
                                     new SqlParameter("MatKhau", nd.MatKhau),
-                                    new SqlParameter("PhanQuyen", nd.PhanQuyen)};
+                                    new SqlParameter("PhanQuyen", nd.PhanQuyen)
+                                   
+            };
             return conn.GetData("DangNhap", para);
         }
         public int ThemNguoiDung(NguoiDung nd)
         {
             SqlParameter[] para = { new SqlParameter("TaiKhoan", nd.TaiKhoan),
                                     new SqlParameter("MatKhau", nd.MatKhau),
-                                    new SqlParameter("PhanQuyen", nd.PhanQuyen)};
+                                    new SqlParameter("PhanQuyen", nd.PhanQuyen),
+                                    new SqlParameter("MaNV", nd.MaNV)
+            };
             return conn.ExcuteSQL("SP_ThemNguoiDung", para);
         }
     }

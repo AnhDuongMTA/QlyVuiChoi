@@ -6,6 +6,7 @@ CREATE TABLE NguoiDung
 	TaiKhoan NVARCHAR(50),
 	MatKhau NVARCHAR(50),
 	PhanQuyen VARCHAR(20)
+
 )
 ------------------------------------------------------
 GO 
@@ -40,14 +41,7 @@ CREATE PROC DangNhap(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50), @PhanQuyen NV
  END
  GO
  ---------------------------------------------------------
- --thu tuc them nguoi dung-----------------------------------------------
- CREATE PROC SP_ThemNguoiDung(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50), @PhanQuyen NVARCHAR(50))
- AS
- BEGIN
- INSERT dbo.NguoiDung
- VALUES  (@TaiKhoan,@MatKhau,@PhanQuyen )
- END
- GO
+
  ---------------------------------------------------------
  --thu thuc xem nhân viên----------------------------------------------------
  CREATE PROC SP_XemThongTinNhanVien

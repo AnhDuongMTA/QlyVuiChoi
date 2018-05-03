@@ -36,8 +36,6 @@
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -75,7 +73,6 @@
             this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtTaiKhoan
             // 
@@ -114,26 +111,6 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(230, 220);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(176, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Bạn chưa có tài khoản?";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(409, 219);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(101, 20);
-            this.linkLabel1.TabIndex = 44;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Đăng kí ngay";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -163,14 +140,14 @@
             this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 2;
             this.label5.Text = "Quyền:";
-            this.label5.Click += new System.EventHandler(this.label3_Click);
             // 
             // cmbQuyen
             // 
             this.cmbQuyen.FormattingEnabled = true;
             this.cmbQuyen.Items.AddRange(new object[] {
             "Admin",
-            "User"});
+            "Nhân Viên Bán Vé",
+            "Nhân Viên Dịch Vụ"});
             this.cmbQuyen.Location = new System.Drawing.Point(379, 176);
             this.cmbQuyen.Name = "cmbQuyen";
             this.cmbQuyen.Size = new System.Drawing.Size(241, 28);
@@ -194,7 +171,6 @@
             this.lblNoPass.Name = "lblNoPass";
             this.lblNoPass.Size = new System.Drawing.Size(0, 20);
             this.lblNoPass.TabIndex = 2;
-            this.lblNoPass.Click += new System.EventHandler(this.label3_Click);
             // 
             // frmLogin
             // 
@@ -207,12 +183,10 @@
             this.ControlBox = false;
             this.Controls.Add(this.cmbQuyen);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblNoPass);
             this.Controls.Add(this.label3);
@@ -226,7 +200,6 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Nhân Sự";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -243,8 +216,6 @@
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbQuyen;

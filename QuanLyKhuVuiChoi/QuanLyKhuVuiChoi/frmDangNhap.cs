@@ -17,6 +17,7 @@ namespace QuanLyKhuVuiChoi
     {
         NguoiDung nd = new NguoiDung();
         NguoiDungBUS ndbus = new NguoiDungBUS();
+        public static string Temp;
         public frmLogin()
         {
             InitializeComponent();
@@ -24,7 +25,8 @@ namespace QuanLyKhuVuiChoi
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-             nd.TaiKhoan= txtTaiKhoan.Text ;
+            Temp = cmbQuyen.Text;
+            nd.TaiKhoan= txtTaiKhoan.Text ;
              nd.MatKhau= txtMatKhau.Text ;
              nd.PhanQuyen= cmbQuyen.Text ;
             if (txtTaiKhoan.Text == "")
@@ -47,6 +49,7 @@ namespace QuanLyKhuVuiChoi
                         nd.MatKhau = dt.Rows[i].ToString();
                         nd.PhanQuyen = dt.Rows[i].ToString();
                     }
+                    
                     frmMain mainn=new frmMain();
                     mainn.Show();
                 }
@@ -88,18 +91,6 @@ namespace QuanLyKhuVuiChoi
             }
             else
                 txtMatKhau.UseSystemPasswordChar = true;
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Hide();
-            frmDangKi dk = new frmDangKi();
-            dk.Show();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
 
         }
     }

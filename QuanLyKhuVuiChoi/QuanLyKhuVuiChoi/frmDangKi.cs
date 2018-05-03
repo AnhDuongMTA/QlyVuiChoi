@@ -17,21 +17,29 @@ namespace QuanLyKhuVuiChoi
     {
         NguoiDung nd = new NguoiDung();
         NguoiDungBUS ndbus = new NguoiDungBUS();
+        NhanVienBUS NV_Bus = new NhanVienBUS();
         public frmDangKi()
         {
             InitializeComponent();
         }
-
+        private void ShowNhanVien()
+        {
+            DataTable dt = new DataTable();
+            dt = NV_Bus.GetDataNhanVien();
+            cmbNhanVien.DataSource = dt;
+            cmbNhanVien.DisplayMember = "Ten_NV";
+            cmbNhanVien.ValueMember = "Ma_NV";
+        }
         private void frmDangKi_Load(object sender, EventArgs e)
         {
-
+            ShowNhanVien();
         }
 
         private void btnTroLai_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmLogin log = new frmLogin();
-            log.Show();
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
         }
 
         private void btnTao_Click(object sender, EventArgs e)
@@ -39,6 +47,7 @@ namespace QuanLyKhuVuiChoi
             nd.TaiKhoan = txtDKTaiKhoan.Text;
             nd.MatKhau = txtDKMatKhau.Text;
             nd.PhanQuyen = cmbPhanQuyen.Text;
+            nd.MaNV = cmbNhanVien.SelectedValue.ToString();
             if (txtDKTaiKhoan.Text=="")
             {
                 lblLoiDKTaiKhoan.Text = "Bạn chưa nhập tài khoản";
@@ -82,6 +91,13 @@ namespace QuanLyKhuVuiChoi
             }
             else
                 txtDKMatKhau.UseSystemPasswordChar = true;
+        }
+
+        private void cmbNhanVien_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataRowView d = (DataRowView)cmbNhanVien.SelectedItem;
+
+            txtDKTaiKhoan.Text = d.Row["Ma_NV"].ToString();
         }
     }
 }

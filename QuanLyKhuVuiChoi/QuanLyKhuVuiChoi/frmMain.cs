@@ -125,7 +125,39 @@ namespace QuanLyKhuVuiChoi
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-
+            if(frmLogin.Temp == "Admin")
+            {
+                đăngKýToolStripMenuItem.Enabled = true;
+                quảnLýDichVụToolStripMenuItem.Enabled = true;
+                quảnLýKhuVựcToolStripMenuItem.Enabled = true;
+                quảnLýVéChơiToolStripMenuItem.Enabled = true;
+                quảnLýNhânViênToolStripMenuItem.Enabled = true;
+                quảnLýKháchHàngToolStripMenuItem.Enabled = true;
+                quảnLýThiếtBịToolStripMenuItem.Enabled = true;
+                quảnLýTròChơiToolStripMenuItem.Enabled = true;
+                thốngKêToolStripMenuItem.Enabled = true;
+                muaGóiDịchVụToolStripMenuItem.Enabled = true;
+                xemTròChơiTheoKhuVựcToolStripMenuItem.Enabled = true;
+                trợGiúoToolStripMenuItem.Enabled = true;
+                thanhToánToolStripMenuItem.Enabled = true;
+                báoCáoDoanhThuToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                if(frmLogin.Temp == "Nhân Viên Bán Vé")
+                {
+                    quảnLýVéChơiToolStripMenuItem.Enabled = true;
+                    quảnLýKháchHàngToolStripMenuItem.Enabled = true;
+                }
+                else
+                {
+                    if (frmLogin.Temp == "Nhân Viên Dịch Vụ")
+                    {
+                        muaGóiDịchVụToolStripMenuItem.Enabled = true;
+                        quảnLýKháchHàngToolStripMenuItem.Enabled = true;
+                    }
+                }
+            }
         }
 
         private void bảoDưỡngThiếtBịToolStripMenuItem_Click(object sender, EventArgs e)
@@ -240,6 +272,12 @@ namespace QuanLyKhuVuiChoi
             frmDoanhThuDichVu dtdv = new frmDoanhThuDichVu();
             dtdv.MdiParent = this;
             dtdv.Show();
+        }
+
+        private void đăngKýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDangKi frmDK = new frmDangKi();
+            frmDK.Show();
         }
     }
 }

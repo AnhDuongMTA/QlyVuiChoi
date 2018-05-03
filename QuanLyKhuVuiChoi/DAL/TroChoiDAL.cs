@@ -60,7 +60,7 @@ namespace DAL
         }
         public DataTable GetDataTC()
         {
-            return conn.GetData("TroChoi_Select", null);
+            return conn.GetData("TroChoi_SelectAll", null);
         }
     }
 }
