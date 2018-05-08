@@ -36,28 +36,28 @@ namespace QuanLyKhuVuiChoi
             frmnv.Show();
         }
 
-        //private void tltXemKhuVucTroChoi_Click(object sender, EventArgs e)
-        //{
-        //    frmXemTroChoiThuocKhuVuc xem = new frmXemTroChoiThuocKhuVuc();
-        //    xem.Show();
-        //}
+        private void tltXemKhuVucTroChoi_Click(object sender, EventArgs e)
+        {
+            //frmXemTroChoiThuocKhuVuc xem = new frmXemTroChoiThuocKhuVuc();
+            //xem.Show();
+        }
 
-        //private void tltThoat_Click(object sender, EventArgs e)
-        //{
-        //    Application.Exit();
-        //}
+        private void tltThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
-        //private void tltThanhToan_Click(object sender, EventArgs e)
-        //{
-        //    frmThanhToan thanhtoan = new frmThanhToan();
-        //    thanhtoan.Show();
-        //}
+        private void tltThanhToan_Click(object sender, EventArgs e)
+        {
+            //frmThanhToan thanhtoan = new frmThanhToan();
+            //thanhtoan.Show();
+        }
 
-        //private void tltMuaVe_Click(object sender, EventArgs e)
-        //{
-        //    frmVeChoi vechoi = new frmVeChoi();
-        //    vechoi.Show();
-        //}
+        private void tltMuaVe_Click(object sender, EventArgs e)
+        {
+            frmVeChoi vechoi = new frmVeChoi();
+            vechoi.Show();
+        }
 
         private void xemTròChơiTheoKhuVựcToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -142,6 +142,8 @@ namespace QuanLyKhuVuiChoi
                 thanhToánToolStripMenuItem.Enabled = true;
                 báoCáoDoanhThuToolStripMenuItem.Enabled = true;
                 tlsMuaVe.Enabled = true;
+                doanhThuBánVéToolStripMenuItem1.Enabled = true;
+                doanhThuDịchVụToolStripMenuItem1.Enabled = true;
             }
             else
             {
@@ -266,7 +268,7 @@ namespace QuanLyKhuVuiChoi
 
         private void tlsThongKe_ButtonClick(object sender, EventArgs e)
         {
-
+          
         }
 
         private void doanhThuDịchVụToolStripMenuItem1_Click(object sender, EventArgs e)

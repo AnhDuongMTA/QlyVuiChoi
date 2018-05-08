@@ -32,3 +32,17 @@ BEGIN
 	DELETE PhieuMua
 	WHERE Ma_Phieu=@maphieu
 END
+GO
+CREATE PROC XemTC
+AS
+BEGIN
+SELECT dbo.TroChoi.Ma_TroChoi,dbo.TroChoi.Ten_TroChoi,dbo.TroChoi.Ma_Khu,dbo.KhuVuc.Gia_NL,dbo.KhuVuc.Gia_TE
+FROM dbo.TroChoi INNER JOIN dbo.KhuVuc ON KhuVuc.Ma_Khu = TroChoi.Ma_Khu
+END
+go
+CREATE PROC XemTTTC
+AS
+BEGIN
+SELECT dbo.TroChoi.Ma_TroChoi,dbo.TroChoi.Ten_TroChoi,dbo.KhuVuc.Ma_Khu
+FROM dbo.TroChoi INNER JOIN dbo.KhuVuc ON KhuVuc.Ma_Khu = TroChoi.Ma_Khu
+END

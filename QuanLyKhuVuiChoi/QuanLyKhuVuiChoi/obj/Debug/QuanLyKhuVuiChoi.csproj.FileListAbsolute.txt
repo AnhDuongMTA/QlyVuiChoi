@@ -270,3 +270,6 @@ E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyK
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoi.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThongTinTaiKhoan.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoiMatKhau.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoiMatKhau.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmInVeChoi.resources
+D:\GitHub\QLNS\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThongTinTaiKhoan.resources
