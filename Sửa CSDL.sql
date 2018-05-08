@@ -32,10 +32,41 @@ VALUES  ( N'NV001', -- TaiKhoan - nvarchar(50)
 		  'NV001'
           )
 --thu tuc them nguoi dung-----------------------------------------------
+GO 
  ALTER PROC SP_ThemNguoiDung(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50), @PhanQuyen NVARCHAR(50),@MaNV VARCHAR(10))
  AS
  BEGIN
  INSERT dbo.NguoiDung
  VALUES  (@TaiKhoan,@MatKhau,@PhanQuyen,@MaNV)
  END
+ GO
+  ALTER  PROC SP_SuaTK(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50))
+ AS
+ BEGIN
+	UPDATE dbo.NguoiDung
+	SET MatKhau = @MatKhau
+	WHERE TaiKhoan = @TaiKhoan
+ END
+ GO
+ CREATE PROC Select_TK 
+ AS
+ BEGIN
+	SELECT TaiKhoan,MatKhau,Ten_NV,PhanQuyen FROM  dbo.NguoiDung,dbo.NhanVien
+	WHERE MaNV =Ma_NV
+ END
+ GO 
+  CREATE PROC Xoa_TK (@TaiKhoan VARCHAR(10))
+ AS
+ BEGIN
+	DELETE dbo.NguoiDung WHERE TaiKhoan = @TaiKhoan
+ END
+ GO 
+ CREATE PROC SP_SelectNV
+ AS 
+ BEGIN
+ select NV.Ma_NV , NV.Ten_NV , ND.TaiKhoan 
+from dbo.NhanVien NV left join dbo.NguoiDung ND
+on NV.Ma_NV=ND.MaNV
+WHERE ND.TaiKhoan IS NULL
+ END 
  GO

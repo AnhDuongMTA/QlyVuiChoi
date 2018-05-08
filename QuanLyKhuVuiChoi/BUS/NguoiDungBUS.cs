@@ -1,5 +1,5 @@
 ﻿using DAL;
-using Entity;
+using ENTITY;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,6 +13,10 @@ namespace BUS
     {
         NguoiDung nd = new NguoiDung();
         NguoiDungDAL nddal = new NguoiDungDAL();
+        public DataTable GetData()
+        {
+            return nddal.GetData();
+        }
         public DataTable DangNhap(NguoiDung nd)
         {
             return nddal.GetUser(nd);
@@ -20,6 +24,14 @@ namespace BUS
         public int ThemNguoiDung(NguoiDung nd)
         {
             return nddal.ThemNguoiDung(nd);
+        }
+        public int SuaTaiKhoan(NguoiDung nd)
+        {
+            return nddal.SuaTaiKhoan(nd);
+        }
+        public int DeLeteTK(string ID)
+        {
+            return nddal.DeleteData(ID);
         }
     }
 }

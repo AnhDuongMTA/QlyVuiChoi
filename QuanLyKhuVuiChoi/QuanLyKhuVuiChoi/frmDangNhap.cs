@@ -1,5 +1,5 @@
 ﻿using BUS;
-using Entity;
+using ENTITY;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +18,7 @@ namespace QuanLyKhuVuiChoi
         NguoiDung nd = new NguoiDung();
         NguoiDungBUS ndbus = new NguoiDungBUS();
         public static string Temp;
+        public static string TaiKhoan;
         public frmLogin()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace QuanLyKhuVuiChoi
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
+            TaiKhoan = txtTaiKhoan.Text;
             Temp = cmbQuyen.Text;
             nd.TaiKhoan= txtTaiKhoan.Text ;
              nd.MatKhau= txtMatKhau.Text ;
@@ -52,6 +54,7 @@ namespace QuanLyKhuVuiChoi
                     
                     frmMain mainn=new frmMain();
                     mainn.Show();
+                   // this.Close();
                 }
                 else
                 {
@@ -66,12 +69,6 @@ namespace QuanLyKhuVuiChoi
             //MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
         }
-
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtTenDangNhap_Click(object sender, EventArgs e)
         {
             lblNoName.Text = "";

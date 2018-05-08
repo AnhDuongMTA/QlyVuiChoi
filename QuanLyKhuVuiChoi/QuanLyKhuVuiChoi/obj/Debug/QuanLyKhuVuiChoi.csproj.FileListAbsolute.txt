@@ -268,3 +268,5 @@ E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyK
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmVeChoi.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemDichVu.resources
 E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmXemTroChoi.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmThongTinTaiKhoan.resources
+E:\Kỳ 6\Thực tập CSDL\QuanLyKhuVuiChoi\QlyVuiChoi\QuanLyKhuVuiChoi\QuanLyKhuVuiChoi\obj\Debug\QuanLyKhuVuiChoi.frmDoiMatKhau.resources

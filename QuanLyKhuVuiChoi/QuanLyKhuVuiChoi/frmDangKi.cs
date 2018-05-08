@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
-using Entity;
+using ENTITY;
 
 namespace QuanLyKhuVuiChoi
 {
@@ -25,7 +25,7 @@ namespace QuanLyKhuVuiChoi
         private void ShowNhanVien()
         {
             DataTable dt = new DataTable();
-            dt = NV_Bus.GetDataNhanVien();
+            dt = NV_Bus.GetListDataNV();
             cmbNhanVien.DataSource = dt;
             cmbNhanVien.DisplayMember = "Ten_NV";
             cmbNhanVien.ValueMember = "Ma_NV";
@@ -63,6 +63,9 @@ namespace QuanLyKhuVuiChoi
             {
                 ndbus.ThemNguoiDung(nd);
                 MessageBox.Show("Tạo tài khoản thành công!");
+                frmThongTinTaiKhoan frmTK = new frmThongTinTaiKhoan();
+                frmTK.Show();
+                this.Close();
             }
             
         }

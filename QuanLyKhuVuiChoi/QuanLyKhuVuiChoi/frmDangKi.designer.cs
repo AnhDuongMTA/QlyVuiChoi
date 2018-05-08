@@ -102,7 +102,7 @@
             this.btnTroLai.Name = "btnTroLai";
             this.btnTroLai.Size = new System.Drawing.Size(75, 32);
             this.btnTroLai.TabIndex = 2;
-            this.btnTroLai.Text = "Trở lại";
+            this.btnTroLai.Text = "Hủy ";
             this.btnTroLai.UseVisualStyleBackColor = true;
             this.btnTroLai.Click += new System.EventHandler(this.btnTroLai_Click);
             // 
@@ -226,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(532, 331);
+            this.ClientSize = new System.Drawing.Size(496, 331);
             this.ControlBox = false;
             this.Controls.Add(this.cmbNhanVien);
             this.Controls.Add(this.label5);

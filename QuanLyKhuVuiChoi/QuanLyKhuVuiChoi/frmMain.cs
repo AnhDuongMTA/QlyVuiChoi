@@ -141,6 +141,7 @@ namespace QuanLyKhuVuiChoi
                 trợGiúoToolStripMenuItem.Enabled = true;
                 thanhToánToolStripMenuItem.Enabled = true;
                 báoCáoDoanhThuToolStripMenuItem.Enabled = true;
+                tlsMuaVe.Enabled = true;
             }
             else
             {
@@ -148,6 +149,7 @@ namespace QuanLyKhuVuiChoi
                 {
                     quảnLýVéChơiToolStripMenuItem.Enabled = true;
                     quảnLýKháchHàngToolStripMenuItem.Enabled = true;
+                    tlsMuaVe.Enabled = true;
                 }
                 else
                 {
@@ -276,8 +278,14 @@ namespace QuanLyKhuVuiChoi
 
         private void đăngKýToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmDangKi frmDK = new frmDangKi();
-            frmDK.Show();
+            frmThongTinTaiKhoan frmTK = new frmThongTinTaiKhoan();
+            frmTK.Show();
+        }
+
+        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDoiMatKhau frmDTK = new frmDoiMatKhau();
+            frmDTK.Show();
         }
     }
 }

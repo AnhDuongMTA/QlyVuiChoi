@@ -36,5 +36,9 @@ namespace BUS
         {
             return nvdal.TangMa();
         }
+        public DataTable GetListDataNV()
+        {
+            return nvdal.GetListDataNV();
+        }
     }
 }

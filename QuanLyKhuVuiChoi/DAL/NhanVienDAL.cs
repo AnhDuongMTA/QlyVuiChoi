@@ -60,5 +60,9 @@ namespace DAL
         {
             return conn.TangMa(" SELECT * FROM dbo.NhanVien", "NV");
         }
+        public DataTable GetListDataNV()
+        {
+            return conn.GetData("SP_SelectNV", null);
+        }
     }
 }
