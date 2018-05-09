@@ -133,6 +133,7 @@ namespace QuanLyKhuVuiChoi
                 HienThi();
                 clearData();
                 DisEnl(false);
+                fluu = 1;
             }
             else
             {

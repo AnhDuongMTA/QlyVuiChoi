@@ -32,22 +32,12 @@ namespace QuanLyKhuVuiChoi
             txtMaTB.Enabled = e;
             txtTenTB.Enabled = e;
             dpNgayBD.Enabled = e;
-            cmbMaTC.Enabled = e;
         }
         private void clearData()
         {
             txtMaTB.Text = "";
             txtTenTB.Text = "";
             dpNgayBD.Text = "";
-            cmbMaTC.Text = "";
-        }
-        public void ShowTroChoi()
-        {
-            DataTable dt = new DataTable();
-            dt = TC_Bus.GetDataTC();
-            cmbMaTC.DataSource = dt;
-            cmbMaTC.DisplayMember = "Ten_TroChoi";
-            cmbMaTC.ValueMember = "Ma_TroChoi";
         }
         private void HienThi()
         {
@@ -57,7 +47,6 @@ namespace QuanLyKhuVuiChoi
         {
             HienThi();
             DisEnl(false);
-            ShowTroChoi();
         }
 
         private void dgvThietBi_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -69,14 +58,12 @@ namespace QuanLyKhuVuiChoi
                     //  txtMaTB.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["MaTB"].Value);
                     txtTenTB.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["TenTB"].Value);
                     dpNgayBD.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["NgayBD"].Value);
-                    cmbMaTC.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["TenTC"].Value);
                 }
                 else
                 {
                     txtMaTB.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["MaTB"].Value);
                     txtTenTB.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["TenTB"].Value);
                     dpNgayBD.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["NgayBD"].Value);
-                    cmbMaTC.Text = Convert.ToString(dgvThietBi.CurrentRow.Cells["TenTC"].Value);
                 }
             }
         }
@@ -125,7 +112,6 @@ namespace QuanLyKhuVuiChoi
             Tb.MaTB = txtMaTB.Text;
             Tb.TenTB = txtTenTB.Text;
             Tb.NgayBD = dpNgayBD.Text;
-            Tb.MaTC = cmbMaTC.Text;
             if (fluu == 0)
             {
                 try
@@ -135,12 +121,13 @@ namespace QuanLyKhuVuiChoi
                     HienThi();
                     clearData();
                     DisEnl(false);
-                    //fluu = 1;
+                   
                 }
                 catch
                 {
                     MessageBox.Show("lỗi không lưu đc");
                 }
+                fluu = 1;
             }
             else
             {

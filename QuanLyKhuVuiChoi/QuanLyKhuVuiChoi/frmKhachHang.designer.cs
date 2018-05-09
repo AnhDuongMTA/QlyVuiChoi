@@ -30,11 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKhachHang));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
             this.cmbGioiTinh = new System.Windows.Forms.ComboBox();
             this.txtNamSinh = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.txtMaKH = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,14 +54,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
-            this.txtSDT = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ma_KH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ten_KH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nam_Sinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gioi_Tinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnMuaVe = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -85,6 +86,13 @@
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập thông tin khách hàng";
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(727, 28);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(174, 25);
+            this.txtSDT.TabIndex = 32;
             // 
             // cmbGioiTinh
             // 
@@ -131,6 +139,15 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Năm Sinh";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(659, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 17);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "SDT:";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -160,6 +177,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnMuaVe);
             this.groupBox3.Controls.Add(this.btnHuy);
             this.groupBox3.Controls.Add(this.btnLuu);
             this.groupBox3.Controls.Add(this.btnThoat);
@@ -181,9 +199,9 @@
             this.btnHuy.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnHuy.Image = ((System.Drawing.Image)(resources.GetObject("btnHuy.Image")));
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnHuy.Location = new System.Drawing.Point(599, 25);
+            this.btnHuy.Location = new System.Drawing.Point(466, 24);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(57, 58);
+            this.btnHuy.Size = new System.Drawing.Size(67, 58);
             this.btnHuy.TabIndex = 11;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -197,7 +215,7 @@
             this.btnLuu.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnLuu.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.Image")));
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLuu.Location = new System.Drawing.Point(472, 25);
+            this.btnLuu.Location = new System.Drawing.Point(382, 24);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(61, 58);
             this.btnLuu.TabIndex = 10;
@@ -212,7 +230,7 @@
             this.btnThoat.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThoat.Location = new System.Drawing.Point(709, 24);
+            this.btnThoat.Location = new System.Drawing.Point(568, 25);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(61, 58);
             this.btnThoat.TabIndex = 9;
@@ -227,9 +245,9 @@
             this.btnXoa.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoa.Location = new System.Drawing.Point(352, 25);
+            this.btnXoa.Location = new System.Drawing.Point(283, 25);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(56, 58);
+            this.btnXoa.Size = new System.Drawing.Size(67, 58);
             this.btnXoa.TabIndex = 6;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -242,9 +260,9 @@
             this.btnSua.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSua.Location = new System.Drawing.Point(224, 24);
+            this.btnSua.Location = new System.Drawing.Point(197, 24);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(57, 58);
+            this.btnSua.Size = new System.Drawing.Size(61, 58);
             this.btnSua.TabIndex = 5;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -360,22 +378,6 @@
             this.dgvKhachHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhachHang_CellClick);
             this.dgvKhachHang.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvKhachHang_RowPrePaint);
             // 
-            // txtSDT
-            // 
-            this.txtSDT.Location = new System.Drawing.Point(727, 28);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(174, 25);
-            this.txtSDT.TabIndex = 32;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(659, 31);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "SDT:";
-            // 
             // STT
             // 
             this.STT.HeaderText = "STT";
@@ -416,6 +418,22 @@
             this.SDT.DataPropertyName = "SDT";
             this.SDT.HeaderText = "SDT";
             this.SDT.Name = "SDT";
+            // 
+            // btnMuaVe
+            // 
+            this.btnMuaVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMuaVe.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnMuaVe.Image = ((System.Drawing.Image)(resources.GetObject("btnMuaVe.Image")));
+            this.btnMuaVe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMuaVe.Location = new System.Drawing.Point(794, 27);
+            this.btnMuaVe.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMuaVe.Name = "btnMuaVe";
+            this.btnMuaVe.Size = new System.Drawing.Size(83, 55);
+            this.btnMuaVe.TabIndex = 15;
+            this.btnMuaVe.Text = "Mua Vé";
+            this.btnMuaVe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMuaVe.UseVisualStyleBackColor = true;
+            this.btnMuaVe.Click += new System.EventHandler(this.btnMuaVe_Click);
             // 
             // frmKhachHang
             // 
@@ -478,5 +496,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nam_Sinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gioi_Tinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT;
+        private System.Windows.Forms.Button btnMuaVe;
     }
 }

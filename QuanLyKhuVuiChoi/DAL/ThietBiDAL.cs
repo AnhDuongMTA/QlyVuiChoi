@@ -26,7 +26,6 @@ namespace DAL
             {
                 new SqlParameter("MaTB",Tb.MaTB),
                 new SqlParameter("TenTB",Tb.TenTB),
-                new SqlParameter("MaTC",Tb.MaTC),
                 new SqlParameter("NgayBD",Tb.NgayBD)
             };
             return conn.ExcuteSQL("Them_ThietBi", para);
@@ -37,7 +36,6 @@ namespace DAL
             {
                 new SqlParameter("MaTB",Tb.MaTB),
                 new SqlParameter("TenTB",Tb.TenTB),
-                new SqlParameter("MaTC",Tb.MaTC),
                 new SqlParameter("NgayBD",Tb.NgayBD)
         };
             return conn.ExcuteSQL("Sua_ThietBi ", para);

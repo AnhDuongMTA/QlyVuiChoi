@@ -17,7 +17,7 @@ namespace DAL
         }
         public DataTable GetDataTTNV(String ID)
         {
-            SqlParameter[] para = { new SqlParameter("Ma", ID) };
+            SqlParameter[] para = { new SqlParameter("MaKhu", ID) };
             return conn.GetData("KhuVuc_SelectNV", para);
         }
         public DataTable GetDataTTTC(String ID)

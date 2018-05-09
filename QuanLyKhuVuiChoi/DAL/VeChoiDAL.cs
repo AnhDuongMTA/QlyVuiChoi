@@ -62,7 +62,7 @@ namespace DAL
         }
         public DataTable GetListKhachHang()
         {
-            return conn.GetData("SP_XemKhachHang", null);
+            return conn.GetData("SP_SelectKH", null); 
         }
         public DataTable GetListKhuVuc()
         {

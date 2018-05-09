@@ -144,6 +144,9 @@ namespace QuanLyKhuVuiChoi
                 tlsMuaVe.Enabled = true;
                 doanhThuBánVéToolStripMenuItem1.Enabled = true;
                 doanhThuDịchVụToolStripMenuItem1.Enabled = true;
+                báoCáoToolStripMenuItem.Enabled = true;
+                thốngKêToolStripMenuItem.Enabled = true;
+                tlsThongKe.Enabled = true;
             }
             else
             {
@@ -173,9 +176,9 @@ namespace QuanLyKhuVuiChoi
 
         private void báoCáoDoanhThuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTTNV ttnv = new frmTTNV();
-            ttnv.MdiParent = this;
-            ttnv.Show();
+            frmDoanhThuBanVe frmDTve = new frmDoanhThuBanVe();
+            frmDTve.MdiParent = this;
+            frmDTve.Show();
 
         }
 
@@ -207,9 +210,9 @@ namespace QuanLyKhuVuiChoi
 
         private void tlsMuaVe_Click(object sender, EventArgs e)
         {
-            frmVeChoi vc = new frmVeChoi();
-            vc.MdiParent = this;
-            vc.Show();
+            frmKhachHang KH = new frmKhachHang();
+            KH.MdiParent = this;
+            KH.Show();
         }
 
         private void tlsThongKe_Click(object sender, EventArgs e)
@@ -265,12 +268,6 @@ namespace QuanLyKhuVuiChoi
             dtbv.MdiParent = this;
             dtbv.Show();
         }
-
-        private void tlsThongKe_ButtonClick(object sender, EventArgs e)
-        {
-          
-        }
-
         private void doanhThuDịchVụToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmDoanhThuDichVu dtdv = new frmDoanhThuDichVu();
@@ -288,6 +285,12 @@ namespace QuanLyKhuVuiChoi
         {
             frmDoiMatKhau frmDTK = new frmDoiMatKhau();
             frmDTK.Show();
+        }
+
+        private void báoCáoDoanhThuDịchVụToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDoanhThuDichVu frmDTDV = new frmDoanhThuDichVu();
+            frmDTDV.Show();
         }
     }
 }

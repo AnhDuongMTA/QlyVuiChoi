@@ -120,8 +120,8 @@ namespace QuanLyKhuVuiChoi
             obj.MaKhachHang = txtMaKH.Text;
             obj.TenKhachHang = txtTenKH.Text;
             obj.GioiTinh = cmbGioiTinh.Text;
-            obj.NamSinh = int.Parse(txtNamSinh.Text);
-            obj.SDT = int.Parse(txtSDT.Text);
+            obj.NamSinh = int.Parse(txtNamSinh.Text.ToString());
+            obj.SDT = int.Parse(txtSDT.Text.ToString());
             if (fluu == 0)
             {
                 int dt;
@@ -133,6 +133,7 @@ namespace QuanLyKhuVuiChoi
                 HienThi();
                 clearData();
                 DisEnl(false);
+                fluu = 1;
             }
             else
             {
@@ -192,6 +193,13 @@ namespace QuanLyKhuVuiChoi
                 cmbGioiTinh.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["Gioi_Tinh"].Value);
                 txtSDT.Text = Convert.ToString(dgvKhachHang.CurrentRow.Cells["SDT"].Value);
             }
+        }
+
+        private void btnMuaVe_Click(object sender, EventArgs e)
+        {
+            frmVeChoi frmVe = new frmVeChoi();
+            frmVe.Show();
+            this.Hide();     
         }
     }
 }

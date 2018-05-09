@@ -165,12 +165,13 @@ namespace QuanLyKhuVuiChoi
                     HienThi();
                     clearData();
                     DisEnl(false);
-                    fluu = 1;
+                   
                 }
                 catch
                 {
 
                 }
+                fluu = 1;
             }
             else
             {

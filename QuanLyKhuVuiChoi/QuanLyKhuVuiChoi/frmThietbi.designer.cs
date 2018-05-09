@@ -37,20 +37,13 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnSua = new System.Windows.Forms.Button();
             this.dpNgayBD = new System.Windows.Forms.DateTimePicker();
-            this.cmbMaTC = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtTenTB = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaTB = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvThietBi = new System.Windows.Forms.DataGridView();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayBD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenTC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.cmbTimKiem = new System.Windows.Forms.ComboBox();
@@ -58,6 +51,10 @@
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayBD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThietBi)).BeginInit();
@@ -175,48 +172,19 @@
             // dpNgayBD
             // 
             this.dpNgayBD.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dpNgayBD.Location = new System.Drawing.Point(130, 230);
+            this.dpNgayBD.Location = new System.Drawing.Point(130, 182);
             this.dpNgayBD.Name = "dpNgayBD";
             this.dpNgayBD.Size = new System.Drawing.Size(169, 26);
             this.dpNgayBD.TabIndex = 3;
             // 
-            // cmbMaTC
-            // 
-            this.cmbMaTC.FormattingEnabled = true;
-            this.cmbMaTC.Items.AddRange(new object[] {
-            "TC01",
-            "TC02",
-            "TC03",
-            "TC04",
-            "TC05",
-            "TC06",
-            "TC07",
-            "TC08",
-            "TC09",
-            "TC10",
-            "TC11"});
-            this.cmbMaTC.Location = new System.Drawing.Point(130, 182);
-            this.cmbMaTC.Name = "cmbMaTC";
-            this.cmbMaTC.Size = new System.Drawing.Size(169, 27);
-            this.cmbMaTC.TabIndex = 2;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 230);
+            this.label3.Location = new System.Drawing.Point(12, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 19);
             this.label3.TabIndex = 0;
             this.label3.Text = "Ngày BD :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 19);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Tên Trò Chơi:";
             // 
             // txtTenTB
             // 
@@ -230,9 +198,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox1.Controls.Add(this.dpNgayBD);
-            this.groupBox1.Controls.Add(this.cmbMaTC);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtTenTB);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaTB);
@@ -277,8 +243,7 @@
             this.STT,
             this.MaTB,
             this.TenTB,
-            this.NgayBD,
-            this.TenTC});
+            this.NgayBD});
             this.dgvThietBi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvThietBi.Location = new System.Drawing.Point(3, 22);
             this.dgvThietBi.Name = "dgvThietBi";
@@ -286,40 +251,6 @@
             this.dgvThietBi.TabIndex = 0;
             this.dgvThietBi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThietBi_CellClick);
             this.dgvThietBi.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvThietBi_RowPrePaint);
-            // 
-            // STT
-            // 
-            this.STT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
-            // 
-            // MaTB
-            // 
-            this.MaTB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MaTB.DataPropertyName = "Ma_TB";
-            this.MaTB.HeaderText = "Mã Thiết Bị";
-            this.MaTB.Name = "MaTB";
-            // 
-            // TenTB
-            // 
-            this.TenTB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenTB.DataPropertyName = "Ten_TB";
-            this.TenTB.HeaderText = "Tên Thiết Bị";
-            this.TenTB.Name = "TenTB";
-            // 
-            // NgayBD
-            // 
-            this.NgayBD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NgayBD.DataPropertyName = "Ngay_BD";
-            this.NgayBD.HeaderText = "Ngày Bảo Dưỡng";
-            this.NgayBD.Name = "NgayBD";
-            // 
-            // TenTC
-            // 
-            this.TenTC.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenTC.DataPropertyName = "Ten_TroChoi";
-            this.TenTC.HeaderText = "Tên Trò Chơi";
-            this.TenTC.Name = "TenTC";
             // 
             // groupBox2
             // 
@@ -410,6 +341,33 @@
             this.label5.TabIndex = 49;
             this.label5.Text = "Quản Lý Thiết Bị   ";
             // 
+            // STT
+            // 
+            this.STT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            // 
+            // MaTB
+            // 
+            this.MaTB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaTB.DataPropertyName = "Ma_TB";
+            this.MaTB.HeaderText = "Mã Thiết Bị";
+            this.MaTB.Name = "MaTB";
+            // 
+            // TenTB
+            // 
+            this.TenTB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenTB.DataPropertyName = "Ten_TB";
+            this.TenTB.HeaderText = "Tên Thiết Bị";
+            this.TenTB.Name = "TenTB";
+            // 
+            // NgayBD
+            // 
+            this.NgayBD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayBD.DataPropertyName = "Ngay_BD";
+            this.NgayBD.HeaderText = "Ngày Bảo Dưỡng";
+            this.NgayBD.Name = "NgayBD";
+            // 
             // frmThietbi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
@@ -450,9 +408,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.DateTimePicker dpNgayBD;
-        private System.Windows.Forms.ComboBox cmbMaTC;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtTenTB;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
@@ -470,6 +426,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaTB;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenTB;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayBD;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenTC;
     }
 }

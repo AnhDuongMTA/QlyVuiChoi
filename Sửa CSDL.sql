@@ -70,3 +70,12 @@ on NV.Ma_NV=ND.MaNV
 WHERE ND.TaiKhoan IS NULL
  END 
  GO
+ CREATE PROC SP_SelectKH
+ AS 
+ BEGIN
+ select KH.Ma_KH , KH.Ten_KH , Ve.Ma_Ve 
+from dbo.KhachHang KH left join dbo.VeChoi Ve
+on KH.Ma_KH=Ve.Ma_KH
+WHERE Ve.Ma_Ve IS NULL
+ END 
+ GO
