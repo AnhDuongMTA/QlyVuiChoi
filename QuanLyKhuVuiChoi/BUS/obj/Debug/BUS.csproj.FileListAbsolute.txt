@@ -52,3 +52,12 @@ C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debu
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\BUS.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\DAL.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\bin\Debug\ENTITY.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\BUS\obj\Debug\BUS.pdb

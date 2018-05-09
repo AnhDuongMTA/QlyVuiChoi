@@ -40,3 +40,10 @@ C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debu
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
 C:\Users\ADMIN\Desktop\khuvuichoi252018\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\DAL.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\bin\Debug\ENTITY.pdb
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.dll
+C:\Users\VuongThanh\Desktop\Ky6\TT_CSDL\New folder\QlyVuiChoi\QuanLyKhuVuiChoi\DAL\obj\Debug\DAL.pdb

@@ -1,10 +1,11 @@
 USE QuanLyKhuVuiChoi
 
 go
-CREATE PROC SP_ChiTietPhieuMuaSelectAll
+ALTER PROC SP_ChiTietPhieuMuaSelectAll
 AS
 BEGIN
-	SELECT *FROM dbo.ChiTietPhieuMua
+	SELECT dbo.PhieuMua.Ma_Phieu,Ten_DV,SoLuong,DonGia,ThanhTien, dbo.KhachHang.Ten_KH
+	FROM ((dbo.ChiTietPhieuMua INNER JOIN dbo.DichVu ON DichVu.Ma_DV = ChiTietPhieuMua.Ma_DV) INNER JOIN dbo.PhieuMua ON PhieuMua.Ma_Phieu = ChiTietPhieuMua.Ma_Phieu) INNER JOIN dbo.KhachHang ON dbo.PhieuMua.Ma_KH = KhachHang.Ma_KH
 END
 
 GO
@@ -16,10 +17,11 @@ BEGIN
 END 
 
 GO 
-CREATE PROC SP_SuaCTPM @MaPhieu VARCHAR(10) , @MaDV VARCHAR(10), @SoLuong INT , @DonGia INT , @ThanhTien INT 
+ALTER PROC SP_SuaCTPM @MaPhieu VARCHAR(10) , @MaDV VARCHAR(10), @SoLuong INT , @DonGia INT , @ThanhTien INT 
 AS
 BEGIN
-	UPDATE dbo.ChiTietPhieuMua SET Ma_DV = @MaDV,SoLuong =@SoLuong,DonGia = @DonGia,ThanhTien = @ThanhTien
+	UPDATE dbo.ChiTietPhieuMua SET SoLuong =@SoLuong,DonGia = @DonGia,ThanhTien = @SoLuong*@DonGia
+	WHERE Ma_Phieu = @MaPhieu AND Ma_DV =@MaDV
 END 
 
 GO
@@ -30,6 +32,14 @@ BEGIN
 	WHERE Ma_Phieu =@MaPhieu
 END 
 
+GO
+CREATE PROC SP_XemCTPM_MaPhieu @MaPhieu VARCHAR(10)
+AS 
+BEGIN
+	SELECT c.Ma_DV,d.Ten_DV, SoLuong,DonGia,ThanhTien
+	FROM dbo.ChiTietPhieuMua c INNER JOIN dbo.DichVu  d ON d.Ma_DV = c.Ma_DV
+	WHERE c.Ma_Phieu = @MaPhieu
+END
 
 --- INSERT 
 INSERT dbo.PhieuMua( Ma_Phieu, Ngay_Mua, Ma_KH )
