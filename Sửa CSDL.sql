@@ -40,7 +40,7 @@ GO
  VALUES  (@TaiKhoan,@MatKhau,@PhanQuyen,@MaNV)
  END
  GO
-  ALTER  PROC SP_SuaTK(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50))
+  CREATE  PROC SP_SuaTK(@TaiKhoan NVARCHAR(50),@MatKhau NVARCHAR(50))
  AS
  BEGIN
 	UPDATE dbo.NguoiDung

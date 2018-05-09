@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnMuaVe = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
@@ -60,7 +61,6 @@
             this.Nam_Sinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gioi_Tinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnMuaVe = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -191,6 +191,23 @@
             this.groupBox3.TabIndex = 32;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chức Năng";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // btnMuaVe
+            // 
+            this.btnMuaVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMuaVe.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnMuaVe.Image = ((System.Drawing.Image)(resources.GetObject("btnMuaVe.Image")));
+            this.btnMuaVe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMuaVe.Location = new System.Drawing.Point(794, 27);
+            this.btnMuaVe.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMuaVe.Name = "btnMuaVe";
+            this.btnMuaVe.Size = new System.Drawing.Size(83, 55);
+            this.btnMuaVe.TabIndex = 15;
+            this.btnMuaVe.Text = "Mua Vé";
+            this.btnMuaVe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMuaVe.UseVisualStyleBackColor = true;
+            this.btnMuaVe.Click += new System.EventHandler(this.btnMuaVe_Click);
             // 
             // btnHuy
             // 
@@ -418,22 +435,6 @@
             this.SDT.DataPropertyName = "SDT";
             this.SDT.HeaderText = "SDT";
             this.SDT.Name = "SDT";
-            // 
-            // btnMuaVe
-            // 
-            this.btnMuaVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMuaVe.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnMuaVe.Image = ((System.Drawing.Image)(resources.GetObject("btnMuaVe.Image")));
-            this.btnMuaVe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMuaVe.Location = new System.Drawing.Point(794, 27);
-            this.btnMuaVe.Margin = new System.Windows.Forms.Padding(5);
-            this.btnMuaVe.Name = "btnMuaVe";
-            this.btnMuaVe.Size = new System.Drawing.Size(83, 55);
-            this.btnMuaVe.TabIndex = 15;
-            this.btnMuaVe.Text = "Mua Vé";
-            this.btnMuaVe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMuaVe.UseVisualStyleBackColor = true;
-            this.btnMuaVe.Click += new System.EventHandler(this.btnMuaVe_Click);
             // 
             // frmKhachHang
             // 

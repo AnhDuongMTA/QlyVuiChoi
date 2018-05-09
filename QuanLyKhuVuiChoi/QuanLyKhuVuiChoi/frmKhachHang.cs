@@ -201,5 +201,10 @@ namespace QuanLyKhuVuiChoi
             frmVe.Show();
             this.Hide();     
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
