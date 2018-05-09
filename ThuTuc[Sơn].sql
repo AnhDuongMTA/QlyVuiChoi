@@ -77,7 +77,7 @@ BEGIN
 	WHERE KhachHang.Ma_KH = VeChoi.Ma_KH AND KhuVuc.Ma_Khu= VeChoi.Ma_Khu
 END
 GO 
-CREATE PROC Them_VeChoi (@MaVe varchar(10),@MaKH VARCHAR(10),@TongTien int ,@MaKhu VARCHAR(10),@SoVeNL INT,@SoVeTE INT,@NgayBan DATE,@GiaVeNL INT,@GiaVeTE INT) 
+CREATE PROC Them_VeChoi (@MaVe varchar(10),@MaKH VARCHAR(10) ,@MaKhu VARCHAR(10),@SoVeNL INT,@SoVeTE INT,@NgayBan DATE,@GiaVeNL INT,@GiaVeTE INT) 
 AS
 BEGIN
 	INSERT INTO dbo.VeChoi
@@ -91,7 +91,7 @@ BEGIN
 			  GiaVeNL,
 			  GiaVeTE
 	        )
-	VALUES  (@MaVe,@SoVeNL,@SoVeTE,@NgayBan,@SoVeNL*@GiaVeNL+ @SoVeTE*@GiaVeTE,@MaKH,@MaKhu)
+	VALUES  (@MaVe,@SoVeNL,@SoVeTE,@NgayBan,@SoVeNL*@GiaVeNL+ @SoVeTE*@GiaVeTE,@MaKH,@MaKhu,@GiaVeNL,@GiaVeTE)
 END
 GO 
 ALTER PROC Sua_VeChoi (@MaVe varchar(10),@MaKH VARCHAR(10),@MaKhu VARCHAR(10),@SoVeNL INT,@SoVeTE INT,@NgayBan DATE,@GiaVeNL INT,@GiaVeTE INT) 
